@@ -1,6 +1,5 @@
 import torch
 import torch.nn as nn
-from torch.utils.data import Dataset, DataLoader, random_split
 
 
 # Importing user made libraries
@@ -10,26 +9,9 @@ from utils import *
 from config import *
 from input_funcs import *
 
-from config import get_config, get_weights_file_path
-
-from datasets import load_dataset
-from tokenizers import Tokenizer
-from tokenizers.models import WordLevel
-from tokenizers.trainers import WordLevelTrainer
-from tokenizers.pre_tokenizers import Whitespace
-
-from tqdm import tqdm
-import warnings
-
-from torch.utils.tensorboard import SummaryWriter
-
 from pathlib import Path
 
-import argparse, os
-
-## Change defaults of variables in this function
-## This function allows you to change settings in Command line interface
-
+import os
 
 
 if __name__ == "__main__":
@@ -43,28 +25,29 @@ if __name__ == "__main__":
 
     ## Visually see what the variables are set to in the Command line interface
     ### DO NOT CHANGE THE VARIABLES IN HERE. CHANGE IT IN THE config.py file 
-    print(f"Machine: {machine}")
-    print(f"Execution: {execution}")
-    print(f"Input Splits: {input_splits}")
-    print(f"Number of Heads: {num_heads}")
-    print(f"Number of Encoder/Decoder Blocks: {num_enc_dec_blocks}")
-    print(f"Embeddings Dimension: {emb_dim}")
-    print(f"Training Batch Size: {training_batch_size}")
-    print(f"Training Epochs: {training_epochs}")
-    print(f"Learning Rate: {learning_rate}")
+    print(f"Machine: {MACHINE}")
+    print(f"Execution: {EXECUTION}")
+    print(f"Input Splits: {INPUT_SPLITS}")
+    print(f"Number of Heads: {NUM_HEADS}")
+    print(f"Number of Encoder/Decoder Blocks: {NUM_ENC_DEC_BLOCKS}")
+    print(f"Embeddings Dimension: {EMB_DIM}")
+    print(f"Training Batch Size: {TRAINING_BATCH_SIZE}")
+    print(f"Training Epochs: {TRAINING_EPOCHS}")
+    print(f"Learning Rate: {LEARNING_RATE}")
 
 
     # Data Paths
     current_dir = os.getcwd()
 
     ## Make sure the weights folder exists
-    Path(f"{datasource}_{model_folder}").mkdir(parents=True, exist_ok=True)
+    Path(f"{DATASOURCE}_{MODEL_FOLDER}").mkdir(parents=True, exist_ok=True)
 
     # Loading Data
-    train_dataloader, val_dataloader, tokenizer_src, tokenizer_trg = get_ds(training_batch_size)
+    train_dataloader, val_dataloader, tokenizer_src, tokenizer_trg = get_ds(TRAINING_BATCH_SIZE)
 
     # Create Model
-    model = build_transformer(tokenizer_src.get_vocab_size(), tokenizer_trg.get_vocab_size(), seq_len, seq_len, d_model=emb_dim)
+    model = build_transformer(tokenizer_src.get_vocab_size(), tokenizer_trg.get_vocab_size(), SEQ_LEN, SEQ_LEN, d_model=EMB_DIM,
+                              N=NUM_ENC_DEC_BLOCKS, h=NUM_HEADS).to(device)
 
     # Create Loss function
     loss_fn = nn.CrossEntropyLoss(ignore_index=tokenizer_src.token_to_id('[PAD]'), label_smoothing=0.1).to(device)
@@ -88,10 +71,11 @@ if __name__ == "__main__":
     prevent overfitting and improve model generalization."""
 
     # select optimizer for training
-    optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate, eps=1e-9)
+    optimizer = torch.optim.Adam(model.parameters(), lr=LEARNING_RATE, eps=1e-9)
 
-    if execution == 't':
-        train_loop(model= model, loss_fn= loss_fn, optimizer= optimizer,)
+    if EXECUTION == 't':
+        train_loop(model= model, loss_fn= loss_fn, optimizer= optimizer, train_dataloader=train_dataloader, 
+                   val_dataloader=val_dataloader, tokenizer_src=tokenizer_src, tokenizer_trg=tokenizer_trg, device=device)
 
-    if execution == 's':
+    if EXECUTION == 's':
         pass

@@ -2,64 +2,67 @@ from pathlib import Path
 import argparse
 
 ### Defaults for variables
-seq_len = 350
-datasource = 'opus_books'
-lang_src = "en"
-lang_trg = "it"
-model_folder = "weights"
-model_basename = "tmodel_"
+#*************************************************************************************#
+SEQ_LEN = 350
+DATASOURCE = 'opus_books'
+LANG_SRC = "en"
+LANG_TRG = "it"
+MODEL_FOLDER = "weights"
+MODEL_BASENAME = "tmodel_"
 PRELOAD = None
-tokenizer_file = "tokenizer_{0}.json"
+TOKENIZER_FILE = "tokenizer_{0}.json"
 
 ## Set if you're using your windows or mac machine (data directory location)
-machine = 'w'     # m for mac, w for windows
+MACHINE = 'w'     # m for mac, w for windows
 
 ## Set if setting the model in training mode or inference mode
-execution = 't'     # t for train, s for sample
+EXECUTION = 't'     # t for train, s for sample
 
 ## Model Variables
-input_splits = 3
-num_heads = 8
-num_enc_dec_blocks = 6
-emb_dim = 512
+INPUT_SPLITS = 3
+NUM_HEADS = 8
+NUM_ENC_DEC_BLOCKS = 6
+EMB_DIM = 512
 
 ## Hyperparameters
-training_batch_size = 8
-training_epochs = 50
-learning_rate = 1e-3
+TRAINING_BATCH_SIZE = 8
+TRAINING_EPOCHS = 50
+LEARNING_RATE = 1e-3
+
+#*************************************************************************************#
 
 def update_globals_from_args(args):
-    global machine, execution, input_splits, num_heads, num_enc_dec_blocks, emb_dim
-    global training_batch_size, training_epochs, learning_rate
+    global MACHINE, EXECUTION, INPUT_SPLITS, NUM_HEADS, NUM_ENC_DEC_BLOCKS, EMB_DIM
+    global TRAINING_BATCH_SIZE, TRAINING_EPOCHS, LEARNING_RATE
 
-    machine = args.machine
-    execution = args.execution
-    input_splits = args.input_splits
-    num_heads = args.num_heads
-    num_enc_dec_blocks = args.num_enc_dec_blocks
-    emb_dim = args.emb_dim
-    training_batch_size = args.training_batch_size
-    training_epochs = args.training_epochs
-    learning_rate = args.learning_rate
+    MACHINE = args.machine
+    EXECUTION = args.execution
+    INPUT_SPLITS = args.input_splits
+    NUM_HEADS = args.num_heads
+    NUM_ENC_DEC_BLOCKS = args.num_enc_dec_blocks
+    EMB_DIM = args.emb_dim
+    TRAINING_BATCH_SIZE = args.training_batch_size
+    TRAINING_EPOCHS = args.training_epochs
+    LEARNING_RATE = args.learning_rate
 
 def getting_vars():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--machine', type=str, default=machine, choices=['w', 'm'])
-    parser.add_argument('--execution', type=str, default=execution, choices=['t', 'i'], 
+    parser.add_argument('--machine', type=str, default=MACHINE, choices=['w', 'm'])
+    parser.add_argument('--execution', type=str, default=EXECUTION, choices=['t', 'i'], 
                         help='t for train, or i for inference the model')
-    parser.add_argument('--input_splits', type=int, default=input_splits, 
+    parser.add_argument('--input_splits', type=int, default=INPUT_SPLITS, 
                         help='# of splits of the input matrix')
-    parser.add_argument('--num_heads', type=int, default=num_heads, 
+    parser.add_argument('--num_heads', type=int, default=NUM_HEADS, 
                         help='# of heads in the transformer model')
-    parser.add_argument('--num_enc_dec_blocks', type=int, default=num_enc_dec_blocks, 
+    parser.add_argument('--num_enc_dec_blocks', type=int, default=NUM_ENC_DEC_BLOCKS, 
                         help='# of encoder / decoder blocks to train')
-    parser.add_argument('--emb_dim', type=int, default=emb_dim, 
+    parser.add_argument('--emb_dim', type=int, default=EMB_DIM, 
                         help='size of the embeddings vector')
-    parser.add_argument('--training_batch_size', type=int, default=training_batch_size, 
+    parser.add_argument('--training_batch_size', type=int, default=TRAINING_BATCH_SIZE, 
                         help='Batch Size during Training and Validation')
-    parser.add_argument('--training_epochs', type=int, default=training_epochs, 
+    parser.add_argument('--training_epochs', type=int, default=TRAINING_EPOCHS, 
                         help='# of epochs you want to train the model')
-    parser.add_argument('--learning_rate', type=float, default=learning_rate, 
+    parser.add_argument('--learning_rate', type=float, default=LEARNING_RATE, 
                         help='learning rate')
 
     args = parser.parse_args()
@@ -70,12 +73,12 @@ def getting_vars():
 # Example usage
 if __name__ == "__main__":
     args = getting_vars()
-    print(f"Machine: {machine}")
-    print(f"Execution: {execution}")
-    print(f"Input Splits: {input_splits}")
-    print(f"Number of Heads: {num_heads}")
-    print(f"Number of Encoder/Decoder Blocks: {num_enc_dec_blocks}")
-    print(f"Embedding Dimension: {emb_dim}")
-    print(f"Training Batch Size: {training_batch_size}")
-    print(f"Training Epochs: {training_epochs}")
-    print(f"Learning Rate: {learning_rate}")
+    print(f"Machine: {MACHINE}")
+    print(f"Execution: {EXECUTION}")
+    print(f"Input Splits: {INPUT_SPLITS}")
+    print(f"Number of Heads: {NUM_HEADS}")
+    print(f"Number of Encoder/Decoder Blocks: {NUM_ENC_DEC_BLOCKS}")
+    print(f"Embedding Dimension: {EMB_DIM}")
+    print(f"Training Batch Size: {TRAINING_BATCH_SIZE}")
+    print(f"Training Epochs: {TRAINING_EPOCHS}")
+    print(f"Learning Rate: {LEARNING_RATE}")

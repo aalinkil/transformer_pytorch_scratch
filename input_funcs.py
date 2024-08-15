@@ -38,7 +38,7 @@ def get_or_build_tokenizer(ds, lang):
     ### Getting the tokens from Hugging Face, or building tokens 
 
     # If tokenizer_file is "tokenizer_{}.json" and lang is "en", then tokenizer_path would be "tokenizer_en.json"
-    tokenizer_path = Path(tokenizer_file.format(lang))
+    tokenizer_path = Path(TOKENIZER_FILE.format(lang))
 
     # If tokenizer file does not exist
     if not Path.exists(tokenizer_path):
@@ -65,34 +65,34 @@ def get_ds(batch_size):
     ### Builds training and testing data corpus along with tokenization
 
     # It only has the train split, so we divide it overselves
-    ds_raw = load_dataset(f"{datasource}", f"{lang_src}-{lang_trg}", split='train')
-    print("**************************")
-    print(f"Length of Dataset: {len(ds_raw)}")
-    print(f"0.1% of the dataset: {ds_raw[0: int(0.01*len(ds_raw))]}")
-    print("**************************")
-    print("")
+    ds_raw = load_dataset(f"{DATASOURCE}", f"{LANG_SRC}-{LANG_TRG}", split='train')
+    #print("**************************")
+    #print(f"Length of Dataset: {len(ds_raw)}")
+    #print(f"0.1% of the dataset: {ds_raw[0: int(0.01*len(ds_raw))]}")
+    #print("**************************")
+    #print("")
 
     # Build tokenizers
-    tokenizer_src = get_or_build_tokenizer(ds_raw, lang_src)
-    tokenizer_tgt = get_or_build_tokenizer(ds_raw, lang_trg)
+    tokenizer_src = get_or_build_tokenizer(ds_raw, LANG_SRC)
+    tokenizer_trg = get_or_build_tokenizer(ds_raw, LANG_TRG)
 
     # Keep 90% for training, 10% for validation
     train_ds_size = int(0.9 * len(ds_raw))
     val_ds_size = len(ds_raw) - train_ds_size
     train_ds_raw, val_ds_raw = random_split(ds_raw, [train_ds_size, val_ds_size])    
 
-    train_ds = BilingualDataset(train_ds_raw, tokenizer_src, tokenizer_tgt, lang_src, lang_trg, seq_len)
-    val_ds = BilingualDataset(val_ds_raw, tokenizer_src, tokenizer_tgt, lang_src, lang_trg, seq_len)
+    train_ds = BilingualDataset(train_ds_raw, tokenizer_src, tokenizer_trg, LANG_SRC, LANG_TRG, SEQ_LEN)
+    val_ds = BilingualDataset(val_ds_raw, tokenizer_src, tokenizer_trg, LANG_SRC, LANG_TRG, SEQ_LEN)
 
     # Find the maximum length of each sentence in the source and target sentence
     max_len_src = 0
-    max_len_tgt = 0
+    max_len_trg = 0
 
     for item in ds_raw:
-        src_ids = tokenizer_src.encode(item['translation'][lang_src]).ids
-        tgt_ids = tokenizer_tgt.encode(item['translation'][lang_trg]).ids
+        src_ids = tokenizer_src.encode(item['translation'][LANG_SRC]).ids
+        trg_ids = tokenizer_trg.encode(item['translation'][LANG_TRG]).ids
         max_len_src = max(max_len_src, len(src_ids))
-        max_len_tgt = max(max_len_tgt, len(tgt_ids))
+        max_len_trg = max(max_len_trg, len(trg_ids))
     
     """
     - item['translation'][lang_src]: Retrieves the source sentence for the current item from the dataset, 
@@ -105,10 +105,10 @@ def get_ds(batch_size):
     number of tokens (i.e., the length) of the encoded sentence."""
 
     print(f'Max length of source sentence: {max_len_src}')
-    print(f'Max length of target sentence: {max_len_tgt}')
+    print(f'Max length of target sentence: {max_len_trg}')
     
 
     train_dataloader = DataLoader(train_ds, batch_size=batch_size, shuffle=True)
     val_dataloader = DataLoader(val_ds, batch_size=1, shuffle=True)
 
-    return train_dataloader, val_dataloader, tokenizer_src, tokenizer_tgt
+    return train_dataloader, val_dataloader, tokenizer_src, tokenizer_trg

@@ -21,23 +21,26 @@ def get_device():
     if (device == 'cuda'):
         print(f"Device name: {torch.cuda.get_device_name(device.index)}")
         print(f"Device memory: {torch.cuda.get_device_properties(device.index).total_memory / 1024 ** 3} GB")
+        
     elif (device == 'mps'):
         print(f"Device name: <mps>")
     else:
         print("NOTE: If you have a GPU, consider using it for training.")
         print("      On a Windows machine with NVidia GPU, check this video: https://www.youtube.com/watch?v=GMSjDTU8Zlc")
         print("      On a Mac machine, run: pip3 install --pre torch torchvision torchaudio torchtext --index-url https://download.pytorch.org/whl/nightly/cpu")
+    
+    return device
 
 
 def get_weights_file_path(epoch: str):
-    model_folder = f"{datasource}_{model_folder}"
-    model_filename = f"{model_basename}{epoch}.pt"
+    model_folder = f"{DATASOURCE}_{model_folder}"
+    model_filename = f"{MODEL_BASENAME}{epoch}.pt"
     return str(Path('.') / model_folder / model_filename)
 
 # Find the latest weights file in the weights folder
 def latest_weights_file_path():
-    model_folder = f"{datasource}_{model_folder}"
-    model_filename = f"{model_basename}*"
+    model_folder = f"{DATASOURCE}_{model_folder}"
+    model_filename = f"{MODEL_BASENAME}*"
     weights_files = list(Path(model_folder).glob(model_filename))
     if len(weights_files) == 0:
         return None
@@ -69,10 +72,9 @@ def train_loop(model, loss_fn, optimizer, train_dataloader, val_dataloader, toke
     curr_dt = datetime.now()
     curr_dt = curr_dt.strftime("%d-%m-%Y %H-%M")
     writer = SummaryWriter(log_dir=f'runs/T_training/{curr_dt}') # creates folder based on current date time
-    writer.add_graph(model) # check if images.to(device) works if this doesn't work at all
     writer.close()
 
-    for epoch in range(initial_epoch, training_epochs):
+    for epoch in range(initial_epoch, TRAINING_EPOCHS):
         torch.cuda.empty_cache()
         model.train()
         batch_iterator = tqdm(train_dataloader, desc=f"Processing Epoch {epoch:02d}")
@@ -93,6 +95,7 @@ def train_loop(model, loss_fn, optimizer, train_dataloader, val_dataloader, toke
             label = batch['label'].to(device) # (B, seq_len)
 
             # Compute the loss using a simple cross entropy
+            ## (B, seq_len, trg_vocab_size) --> (B * seq_len, trg_vocab_size)
             loss = loss_fn(proj_output.view(-1, tokenizer_trg.get_vocab_size()), label.view(-1))
             batch_iterator.set_postfix({"loss": f"{loss.item():6.3f}"})
 
@@ -109,20 +112,22 @@ def train_loop(model, loss_fn, optimizer, train_dataloader, val_dataloader, toke
 
             global_step += 1
 
-            # Run validation at the end of every epoch
-            run_validation(model, val_dataloader, tokenizer_src, tokenizer_trg, seq_len, device, lambda msg: batch_iterator.write(msg), global_step, writer)
+        # Run validation at the end of every epoch
+        run_validation(model, val_dataloader, tokenizer_src, tokenizer_trg, SEQ_LEN, device, lambda msg: batch_iterator.write(msg), global_step, writer)
 
-            # Save the model at the end of every epoch
-            model_filename = get_weights_file_path(f"{epoch:02d}")
-            torch.save({
-                'epoch': epoch,
-                'model_state_dict': model.state_dict(),
-                'optimizer_state_dict': optimizer.state_dict(),
-                'global_step': global_step
-            }, model_filename)
+        # Save the model at the end of every epoch
+        model_filename = get_weights_file_path(f"{epoch:02d}")
+
+        # Also a good idea to save optimizer state, epoch, etc. to resume training
+        torch.save({
+            'epoch': epoch,
+            'model_state_dict': model.state_dict(),
+            'optimizer_state_dict': optimizer.state_dict(),
+            'global_step': global_step
+        }, model_filename)
 
 
-def run_validation(model, validation_ds, tokenizer_src, tokenizer_tgt, max_len, device, print_msg, global_step, writer, num_examples=2):
+def run_validation(model, validation_ds, tokenizer_src, tokenizer_trg, max_len, device, print_msg, global_step, writer, num_examples=2):
     model.eval()
     count = 0
 
@@ -135,6 +140,10 @@ def run_validation(model, validation_ds, tokenizer_src, tokenizer_tgt, max_len, 
         with os.popen('stty size', 'r') as console:
             _, console_width = console.read().split()
             console_width = int(console_width)
+        """Attempts to get the width of the console window for formatting output. 
+        If it fails (e.g., in environments where stty is not available), it defaults to 
+        a width of 80 characters."""
+        
     except:
         # If we can't get the console width, use 80 as default
         console_width = 80
@@ -149,23 +158,25 @@ def run_validation(model, validation_ds, tokenizer_src, tokenizer_tgt, max_len, 
             assert encoder_input.size(
                 0) == 1, "Batch size must be 1 for validation"
 
-            model_out = greedy_decode(model, encoder_input, encoder_mask, tokenizer_src, tokenizer_tgt, max_len, device)
+            model_out = greedy_decode(model, encoder_input, encoder_mask, tokenizer_src, tokenizer_trg, max_len, device)
 
             source_text = batch["src_text"][0]
-            target_text = batch["tgt_text"][0]
-            model_out_text = tokenizer_tgt.decode(model_out.detach().cpu().numpy())
+            target_text = batch["trg_text"][0]
+            model_out_text = tokenizer_trg.decode(model_out.detach().cpu().numpy())
 
             source_texts.append(source_text)
             expected.append(target_text)
             predicted.append(model_out_text)
             
             # Print the source, target and model output
+            ## alternative to print and does not interfere with tqdm
             print_msg('-'*console_width)
             print_msg(f"{f'SOURCE: ':>12}{source_text}")
             print_msg(f"{f'TARGET: ':>12}{target_text}")
             print_msg(f"{f'PREDICTED: ':>12}{model_out_text}")
 
             if count == num_examples:
+                # alternative to print and does not interfere with tqdm
                 print_msg('-'*console_width)
                 break
     
@@ -190,14 +201,16 @@ def run_validation(model, validation_ds, tokenizer_src, tokenizer_tgt, max_len, 
         writer.flush()
 
 
-def greedy_decode(model, source, source_mask, tokenizer_src, tokenizer_tgt, max_len, device):
-    sos_idx = tokenizer_tgt.token_to_id('[SOS]')
-    eos_idx = tokenizer_tgt.token_to_id('[EOS]')
+def greedy_decode(model, source, source_mask, tokenizer_src, tokenizer_trg, max_len, device):
+    sos_idx = tokenizer_trg.token_to_id('[SOS]')
+    eos_idx = tokenizer_trg.token_to_id('[EOS]')
 
     # Precompute the encoder output and reuse it for every step
     encoder_output = model.encode(source, source_mask)
     # Initialize the decoder input with the sos token
+    ## (batch, sentence_len)
     decoder_input = torch.empty(1, 1).fill_(sos_idx).type_as(source).to(device)
+    
     while True:
         if decoder_input.size(1) == max_len:
             break

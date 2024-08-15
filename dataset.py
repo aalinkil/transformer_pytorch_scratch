@@ -4,8 +4,6 @@ import torch
 import torch.nn as nn
 from torch.utils.data import Dataset
 
-from datasets import load_dataset
-
 from config import *
 
 class BilingualDataset(Dataset):
