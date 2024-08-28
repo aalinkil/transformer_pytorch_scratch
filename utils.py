@@ -33,7 +33,7 @@ def get_device():
 
 
 def get_weights_file_path(epoch: str):
-    model_folder = f"{DATASOURCE}_{model_folder}"
+    model_folder = f"{DATASOURCE}_{MODEL_FOLDER}"
     model_filename = f"{MODEL_BASENAME}{epoch}.pt"
     return str(Path('.') / model_folder / model_filename)
 

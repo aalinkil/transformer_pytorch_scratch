@@ -3,10 +3,10 @@ import argparse
 
 ### Defaults for variables
 #*************************************************************************************#
-SEQ_LEN = 350
+SEQ_LEN = 790
 DATASOURCE = 'opus_books'
 LANG_SRC = "en"
-LANG_TRG = "it"
+LANG_TRG = "es"
 MODEL_FOLDER = "weights"
 MODEL_BASENAME = "tmodel_"
 PRELOAD = None
