@@ -1,0 +1,162 @@
+Processing Epoch 17: 100%|██████████████████████████████████████████████████████████████████████████████████████████████| 10000/10000 [34:49<00:00,  4.79it/s, loss=4.385]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: “No shoot,” says Friday, “no yet; me shoot now, me no kill; me stay, give you one more laugh:” and, indeed, so he did; for when the bear saw his enemy gone, he came back from the bough, where he stood, but did it very cautiously, looking behind him every step, and coming backward till he got into the body of the tree, then, with the same hinder end foremost, he came down the tree, grasping it with his claws, and moving one foot at a time, very leisurely.
+    TARGET: Entonces retrocedió hasta la parte más delgada de la rama, que se doblaría con su peso y, deslizándose suavemente, se colgó de ella hasta que casi tocó el suelo con los pies. Dio un pequeño salto y corrió hasta su fusil.
+ PREDICTED: Viernes no me dijo nada , pero , al cabo de un momento , me hizo un movimiento de caza , que se había levantado y , al parecer , se acercó a la espalda , se detuvo , como si no podía , se acercó a la vez de la orilla , se detuvo .
+--------------------------------------------------------------------------------
+    SOURCE: D’Artagnan, be it remembered, was only twenty years old, and at that age sleep has its imprescriptible rights which it imperiously insists upon, even with the saddest hearts.
+    TARGET: D'Artagnan tenía veinte años, como se recordará, y a esa edad el sueño tiene derechos imprescriptibles que reclaman imperiosamente incluso en los corazones más desesperados.
+ PREDICTED: D ' Artagnan , que sólo se trataba de veinte años , y en el cual ha de morir con sus derechos , que por el corazón más profundo de los corazones .
+--------------------------------------------------------------------------------
+C:\Users\Silver Surfer\anaconda3\envs\transformer\lib\site-packages\torchmetrics\utilities\prints.py:61: FutureWarning: Importing `CharErrorRate` from `torchmetrics` was deprecated and will be removed in 2.0. Import `CharErrorRate` from `torchmetrics.text` instead.
+  _future_warning(
+C:\Users\Silver Surfer\anaconda3\envs\transformer\lib\site-packages\torchmetrics\utilities\prints.py:61: FutureWarning: Importing `WordErrorRate` from `torchmetrics` was d
+                                                                                                                                                                          deprecated and will be removed in 2.0. Import `WordErrorRate` from `torchmetrics.text` instead.
+  _future_warning(
+C:\Users\Silver Surfer\anaconda3\envs\transformer\lib\site-packages\torchmetrics\utilities\prints.py:61: FutureWarning: Importing `BLEUScore` from `torchmetrics` was deprecated and will be removed in 2.0. Import `BLEUScore` from `torchmetrics.text` instead.
+  _future_warning(
+Processing Epoch 18: 100%|██████████████████████████████████████████████████████████████████████████████████████████████| 10000/10000 [34:43<00:00,  4.80it/s, loss=3.890]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: Once during that long evening, the door on one side of the room was opened very slightly and hurriedly closed again; later on the door on the other side did the same; it seemed that someone needed to enter the room but thought better of it.
+    TARGET: En una ocasión, durante el largo anochecer, se abrió una pequeña rendija una vez en una puerta lateral y otra vez en la otra, y ambas se volvieron a cerrar rápidamente; probablemente alguien tenía necesidad de entrar, pero, al mismo tiempo, sentía demasiada vacilación.
+ PREDICTED: Una vez en aquella misma noche , en la puerta del cuarto , abrió una pequeña habitación y volvió a abrir la puerta , y luego , después de haber abierto la misma puerta , se le pareció que era mejor que se le ocurrió otra cosa .
+--------------------------------------------------------------------------------
+    SOURCE: He forgot the necessary slowness of navigation; he exaggerated to himself the power of Milady.
+    TARGET: Olvidaba las lentitudes obligadas de la navegación, exageraba el poder de Milady.
+ PREDICTED: las de la investigación ; se a la potencia de Milady .
+--------------------------------------------------------------------------------
+Processing Epoch 19: 100%|██████████████████████████████████████████████████████████████████████████████████████████████| 10000/10000 [34:47<00:00,  4.79it/s, loss=4.166]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: 'Yes, yes,' and stroking her shoulder he kissed her hair at the roots and her neck, and let her go.
+    TARGET: Volvió a acariciarla en los hombros, le besó la nuca y la dejó marchar.
+ PREDICTED: – Sí , sí , y el hombro de su rostro y la besó .
+--------------------------------------------------------------------------------
+    SOURCE: 'That's enough about lessons,' the Gryphon interrupted in a very decided tone: 'tell her something about the games now.'
+    TARGET: --Basta de cursos ya --ordenó el Grifo autoritariamente. --Cuéntale ahora algo sobre los juegos.
+ PREDICTED: -- Es muy difícil decir -- interrumpió el Grifo --, y , en efecto , se dirigió a la niña con una voz baja .
+--------------------------------------------------------------------------------
+Processing Epoch 20: 100%|██████████████████████████████████████████████████████████████████████████████████████████████| 10000/10000 [34:46<00:00,  4.79it/s, loss=4.153]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: On the right rose the lower spurs of the mountainous mass which extends southward to the sources of the Arkansas River, one of the great tributaries of the Missouri.
+    TARGET: A la derecha de la vía aparecían las primeras rampas de la masa montañosa que se redondea al Sur hasta el nacimiento del Arkansas, uno de los grandes tributarios del Missouri.
+ PREDICTED: En efecto , el río se levantó lentamente de las aguas del sur , que se extiende a través de la parte de la , uno de los grandes islotes de .
+--------------------------------------------------------------------------------
+    SOURCE: And even when our hearts could beat with yours, moved by some of your griefs or stirred by your deeds of courage and genius, we've had to stifle even the slightest token of that sympathy that arises at the sight of something fine and good, whether it comes from friend or enemy.
+    TARGET: Incluso cuando nuestros corazones han podido latir por usted, emocionados por sus dolores o conmovidos por sus actos de genio o de valor, hemos debido sofocar en nosotros hasta el más mínimo testimonio de esa simpatía que hace nacer la vista de lo que es bueno y noble, ya provenga del amigo o del enemigo.
+ PREDICTED: Y cuando nuestros corazones se con vuestros corazones , se de sus fuerzas o de su valor , y hemos tenido la fuerza de creer que la mayor parte de la vista de la vista de la vista de la gente , o si el mejor enemigo viene a ser amigo o de su amigo .
+--------------------------------------------------------------------------------
+Processing Epoch 21: 100%|██████████████████████████████████████████████████████████████████████████████████████████████| 10000/10000 [34:52<00:00,  4.78it/s, loss=4.118]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: Many families continue for years in their old ruts, hated by both husband and wife, merely because there is neither complete discord nor harmony.
+    TARGET: Muchos matrimonios pasan años enteros así, en lugares desagradables a incómodos, y en una no menos desagradable e incómoda situación, sólo por no tomar una decisión cualquiera.
+ PREDICTED: Muchos años de la familia , a pesar de sus años , se a su marido , y por la mujer , no hay nada que hacer ni una sola cosa .
+--------------------------------------------------------------------------------
+    SOURCE: At eleven o’clock Kitty came to him. She held in her hand a fresh billet from Milady.
+    TARGET: A las once, vio llegar a Ketty; llevaba en la mano un nuevo billete de Milady.
+ PREDICTED: A las once de la tarde , D ' Artagnan le acercó a ella una mano nueva .
+--------------------------------------------------------------------------------
+Processing Epoch 22: 100%|██████████████████████████████████████████████████████████████████████████████████████████████| 10000/10000 [34:44<00:00,  4.80it/s, loss=4.564]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: My companions were suffering too, and not one of us dared touch this wretched remnant of our goodly store.
+    TARGET: Mis compañeros padecían también, a pesar de lo cual ninguno de las tres nos atrevíamos a tocar aquel miserable resto de alimentos.
+ PREDICTED: Mis compañeros estaban demasiado y no nos a nuestro desdichado horror de nuestras necesidades .
+--------------------------------------------------------------------------------
+    SOURCE: Ay, dead as the stones on which her brains and blood were scattered."
+    TARGET: Se rompió la cabeza contra las piedras de la explanada.
+ PREDICTED: Sí , como las piedras que se en sus carnes , y las .
+--------------------------------------------------------------------------------
+Processing Epoch 23: 100%|██████████████████████████████████████████████████████████████████████████████████████████████| 10000/10000 [34:42<00:00,  4.80it/s, loss=4.440]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: Of that ill-broken steed?
+    TARGET: de tu mal regida bestia.
+ PREDICTED: ¿ De qué mal humor ?
+--------------------------------------------------------------------------------
+    SOURCE: He liked the graceful and effective French School of painting best, and in that style began painting a portrait of Anna dressed as an Italian, and he, as well as every one else who saw it, considered the portrait a great success.
+    TARGET: Le gustaba, más que ninguna, la escuela francesa, graciosa y efectista, y en tal estilo comenzó a pintar el retrato de Ana en traje italiano. El retrato pareció excelente a cuantos lo vieron y también a él.
+ PREDICTED: Le gustaba mucho que el tema de francés , y en el retrato de Ana , que se sentaba en un cuadro de francés , y , como él , como él , como él , como si se consideraba un retrato muy diferente .
+--------------------------------------------------------------------------------
+Processing Epoch 24: 100%|██████████████████████████████████████████████████████████████████████████████████████████████| 10000/10000 [34:40<00:00,  4.81it/s, loss=4.086]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: "Yes," I said; "but I could not go on for ever so: I want to enjoy my own faculties as well as to cultivate those of other people.
+    TARGET: -Sí -dije-, pero yo no puedo dedicarme sólo al bien de los demás.
+ PREDICTED: - Sí - dije -, pero no me ni me ni ni ni a los demás .
+--------------------------------------------------------------------------------
+    SOURCE: "'How,' cried I, 'in my mother's chapel!'
+    TARGET: ¡De mi madre! exclamé.
+ PREDICTED: »––¡ Cómo ! –– exclamé yo , en mi madre ––.
+--------------------------------------------------------------------------------
+Processing Epoch 25: 100%|██████████████████████████████████████████████████████████████████████████████████████████████| 10000/10000 [37:45<00:00,  4.41it/s, loss=4.231]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: He said, too, that it would be as well for him to go on before them to find him, and give him his lady's answer; for that perhaps might be enough to bring him away from the place without putting them to all this trouble.
+    TARGET: También les dijo que sería bien que él fuese delante a buscarle y darle la respuesta de su señora, que ya sería ella bastante a sacarle de aquel lugar, sin que ellos se pusiesen en tanto trabajo.
+ PREDICTED: Le dijo que también sería muy bien que le antes de que le , y le prometió decirle que la señora de su señora le daría la suficiente intención de sin que se de .
+--------------------------------------------------------------------------------
+    SOURCE: He is a Mr. Godfrey Norton, of the Inner Temple.
+    TARGET: Un tal Godfrey Norton, del Inner Temple.
+ PREDICTED: El señor Rivers es un , de .
+--------------------------------------------------------------------------------
+Processing Epoch 26: 100%|██████████████████████████████████████████████████████████████████████████████████████████████| 10000/10000 [34:48<00:00,  4.79it/s, loss=4.100]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: "Only till the queen has given an heir to the crown of France."
+    TARGET: Espera a que la reina haya dado un heredero a la corona de Francia.
+ PREDICTED: Sólo hasta que la reina ha dado un heredero de Francia .
+--------------------------------------------------------------------------------
+    SOURCE: "Some were farm labourers; a good deal worked at Mr. Oliver's needle-factory, and at the foundry."
+    TARGET: -Muchos son labradores y otros trabajan en la fábrica de agujas de Mr. Oliver.
+ PREDICTED: - Hay algunas jornaleros , señor Oliver .
+--------------------------------------------------------------------------------
+Processing Epoch 27: 100%|██████████████████████████████████████████████████████████████████████████████████████████████| 10000/10000 [34:46<00:00,  4.79it/s, loss=4.428]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: Stapleton had abandoned the chase and came back to us breathing hard and flushed with his exertions.
+    TARGET: Stapleton había abandonado la caza y se acercaba a nosotros jadeante y con el rostro encendido por el esfuerzo.
+ PREDICTED: Stapleton había abandonado la caza y nos había vuelto a respirar , y nos con sus esfuerzos .
+--------------------------------------------------------------------------------
+    SOURCE: Up, of course; up continually.
+    TARGET: Subir sin duda alguna! ¡Subir sin descansar!
+ PREDICTED: Hasta el camino , sin salida .
+--------------------------------------------------------------------------------
+Processing Epoch 28: 100%|██████████████████████████████████████████████████████████████████████████████████████████████| 10000/10000 [34:44<00:00,  4.80it/s, loss=4.218]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: Did you get your other boot?"
+    TARGET: ¿Recuperó usted la otra bota?
+ PREDICTED: ¿ Ha encontrado usted la bota ?
+--------------------------------------------------------------------------------
+    SOURCE: Won in youth to religion, she has cultivated my original qualities thus:
+    TARGET: La religión me ha ganado a su causa y ha convertido los gérmenes de afecto instintivo que hubiera en mí, en el árbol amplio de la filantropía cristiana.
+ PREDICTED: en religión , es mi propia mujer .
+--------------------------------------------------------------------------------
+Processing Epoch 29: 100%|██████████████████████████████████████████████████████████████████████████████████████████████| 10000/10000 [34:40<00:00,  4.81it/s, loss=4.151]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: Brandon is one of them.
+    TARGET: Brandon es uno.
+ PREDICTED: El Brandon es uno de ellos .
+--------------------------------------------------------------------------------
+    SOURCE: The distance between Suez and Aden is precisely thirteen hundred and ten miles, and the regulations of the company allow the steamers one hundred and thirty-eight hours in which to traverse it.
+    TARGET: La distancia entre Suez y Adén es exactamente de mil trescientas millas, y el pliego de condiciones de la Compañía concede a sus vapores un transcurso de ciento treinta y ocho horas para andarlo.
+ PREDICTED: La distancia entre Suez y el Suez son siete millas y siete millas y siete millas de la compañía de los vapores y de los vapores de los vapores de los vapores y de la ciudad , a la que se halla a cuarenta millas de aquí .

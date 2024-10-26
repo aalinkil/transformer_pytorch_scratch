@@ -9,7 +9,7 @@ LANG_SRC = "en"
 LANG_TRG = "es"
 MODEL_FOLDER = "weights"
 MODEL_BASENAME = "tmodel_"
-PRELOAD = None
+PRELOAD = "latest"
 TOKENIZER_FILE = "tokenizer_{0}.json"
 
 ## Set if you're using your windows or mac machine (data directory location)
@@ -22,12 +22,15 @@ EXECUTION = 't'     # t for train, s for sample
 INPUT_SPLITS = 3
 NUM_HEADS = 8
 NUM_ENC_DEC_BLOCKS = 6
-EMB_DIM = 512
+EMB_DIM = 64
 
 ## Hyperparameters
 TRAINING_BATCH_SIZE = 8
-TRAINING_EPOCHS = 50
+TRAINING_EPOCHS = 30
 LEARNING_RATE = 1e-3
+
+## For Tensorboard Graph
+EXPERIMENT_NAME = "smallx100_test"
 
 #*************************************************************************************#
 

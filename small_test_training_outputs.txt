@@ -1,0 +1,947 @@
+C:\Users\Silver Surfer\anaconda3\envs\transformer\lib\site-packages\torchaudio\backend\utils.py:74: UserWarning: No audio backend is available.
+  warnings.warn("No audio backend is available.")
+Using device: cuda
+Device name: NVIDIA GeForce RTX 3090
+Device memory: 23.99951171875 GB
+Machine: w
+Execution: t
+Input Splits: 3
+Number of Heads: 8
+Number of Encoder/Decoder Blocks: 6
+Embeddings Dimension: 64
+Training Batch Size: 8
+Training Epochs: 200
+Learning Rate: 0.001
+Max length of source sentence: 767
+Max length of target sentence: 782
+No model to preload, starting from scratch
+Processing Epoch 00: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:23<00:00,  4.20it/s, loss=7.297]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: In essence, over an hour's time a single human being consumes all the oxygen found in 100 liters of air, at which point that air has become charged with a nearly equal amount of carbon dioxide and is no longer fit for breathing.
+    TARGET: En efecto, cada hombre consume en una hora el oxígeno contenido en cien litros de aire, y el aire, cargado entonces de una cantidad casi igual de ácido carbónico, se hace irrespirable.
+ PREDICTED: , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,
+--------------------------------------------------------------------------------
+    SOURCE: "Yes."
+    TARGET: Sí.
+ PREDICTED: , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,
+--------------------------------------------------------------------------------
+C:\Users\Silver Surfer\anaconda3\envs\transformer\lib\site-packages\torchmetrics\utilities\prints.py:61: FutureWarning: Importing `CharErrorRate` from `torchmetrics` was deprecated and will be removed in 2.0. Import `CharErrorRate` from `torchmetrics.text` instead.
+  _future_warning(
+C:\Users\Silver Surfer\anaconda3\envs\transformer\lib\site-packages\torchmetrics\utilities\prints.py:61: FutureWarning: Importing `WordErrorRate` from `torchmetrics` was deprecated and will be removed in 2.0. Import `WordErrorRate` from `torchmetrics.text` instead.
+  _future_warning(
+C:\Users\Silver Surfer\anaconda3\envs\transformer\lib\site-packages\torchmetrics\utilities\prints.py:61: FutureWarning: Importing `BLEUScore` from `torchmetrics` was deprecated and will be removed in 2.0. Import `BLEUScore` from `torchmetrics.text` instead.
+  _future_warning(
+Processing Epoch 01: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:23<00:00,  4.34it/s, loss=6.787]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: "The letters of Amadis were never signed," said Don Quixote.
+    TARGET: -Nunca las cartas de Amadís se firman -respondió don Quijote.
+ PREDICTED: , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,
+--------------------------------------------------------------------------------
+    SOURCE: "All that," said he of the Grove, "may be endured and put up with when we have hopes of reward; for, unless the knight-errant he serves is excessively unlucky, after a few turns the squire will at least find himself rewarded with a fine government of some island or some fair county."
+    TARGET: -Todo eso se puede llevar y conllevar -dijo el del Bosque-, con la esperanza que tenemos del premio; porque si demasiadamente no es desgraciado el caballero andante a quien un escudero sirve, por lo menos, a pocos lances se verá premiado con un hermoso gobierno de cualque ínsula, o con un condado de buen parecer.
+ PREDICTED: , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,
+--------------------------------------------------------------------------------
+Processing Epoch 02: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:23<00:00,  4.33it/s, loss=6.472]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: You see all these isolated facts, together with many minor ones, all pointed in the same direction."
+    TARGET: Como ve, todos estos hechos aislados, junto con otros muchos de menor importancia, señalaban en la misma dirección.
+ PREDICTED:
+--------------------------------------------------------------------------------
+    SOURCE: "I do not affirm that we are menaced with an earthquake," answered Cyrus Harding, "may God preserve us from that!
+    TARGET: –No digo que estemos amenazados de un terremoto –repuso Ciro Smith–y Dios nos libre de él.
+ PREDICTED:
+--------------------------------------------------------------------------------
+Processing Epoch 03: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:23<00:00,  4.29it/s, loss=6.416]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: Her pristine form and beauty to regain,
+    TARGET: de las sangrientas y pesadas armas!
+ PREDICTED: - - - , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , que la , , , , , , , , , , , , , , , , , , , , , , , , , , , , , que la , que la , , que la , que la , , que la , , , , que la , , , , , , que la , que la , , que la , , , , , , , que la , , , , , , , , , , , , que la , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , que la , , , , que la , que la , que la , que la , que la , la , que la , la , la , la , la , que la , que la , , , que la , que la , , , , que la , , , , , , que la .
+--------------------------------------------------------------------------------
+    SOURCE: He answered, with a great deal of candour and ingenuousness, that their condition was so miserable, and that they were so sensible of it, that he believed they would abhor the thought of using any man unkindly that should contribute to their deliverance; and that, if I pleased, he would go to them with the old man, and discourse with them about it, and return again and bring me their answer; that he would make conditions with them upon their solemn oath, that they should be absolutely under my direction as their commander and captain; and they should swear upon the holy sacraments and gospel to be true to me, and go to such Christian country as I should agree to, and no other; and to be directed wholly and absolutely by my orders till they were landed safely in such country as I intended, and that he would bring a contract from them, under their hands, for that purpose.
+    TARGET: Me contestó con mucha honradez y sinceridad que su situación era tan miserable como la mía y que habían sufrido tanto, que no podrían menos que aborrecer la mera idea de perjudicar a nadie que les ayudara a escapar. Si me parecía bien, él iría con el viejo a hablar con ellos sobre el asunto y regresaría con una respuesta; que obtendría su compromiso solemne de ponerse bajo mis órdenes como capitán y comandante y les haría jurar sobre los Santos Sacramentos y el Evangelio, que serían leales, que iríamos al país cristiano que yo quisiera y a ningún otro; que se someterían total y absolutamente a mis órdenes hasta que hubiésemos desembarcado sanos y salvos en el país que yo quisiera; y que me darían un contrato firmado a estos efectos.
+ PREDICTED: - - , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , que la , , , , , , que la , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , que la , , , , , , , , , , , , , , , , , , , , , , , , , , , , que la , que la , que la , que la , que la , que que que que que que que que la , , , , que la , que la , que la , que la , , que que la , que que que la , que que que que que que que la , que la , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , que la , que la , que la , que la , que la , que la , que la , que la , que la que la , que la , la , que la , que la , que la , que la , que la , que la , que la , que la , que la , , que la , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , que la , , , , que la , , , , que la , que la , , , que la , , , , , , que la , que la , que la , que la , que la , que la , que la , que la , que la , que la , que la , que la , que la , que la , que la , que la , que la , que la , que la , que la , que la , la que la , la que la , la , la que la que la que la que la que la que la que la , la que la , la , que la , que la , que la , que la , que la que la , la , la que la , que la , la que la , la que la , la , la que la que la que la que la , la , la que la , que la , la , la , la , que la , que la , la , que la , que la , que la , que la , que la , que la , , , , que la , que la , , , que la , , , , , , que la , que la , que la , que la , que la , que la , que la , que la , que la , que la , que la , que la , que la , que la , que la , que la , que la
+--------------------------------------------------------------------------------
+Processing Epoch 04: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:23<00:00,  4.30it/s, loss=6.402]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: "Really!
+    TARGET: ––¿De verdad?
+ PREDICTED: – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – –
+--------------------------------------------------------------------------------
+    SOURCE: The coach drew up; there it was at the gates with its four horses and its top laden with passengers: the guard and coachman loudly urged haste; my trunk was hoisted up; I was taken from Bessie's neck, to which I clung with kisses.
+    TARGET: Mi equipaje fue izado sobre el techo. Me separaron del cuello de Bessie, a quien estaba cubriendo de besos.
+ PREDICTED: Pero el , que la , que la , que la , que la , que la , que la , que la , que la , que la , que la , que la , que la , que la , que la , que la , que la , que la , que la , que la , que la , que la , que la , que la , que la , que la , que la , que la , que la , que que la , que la , que la , que la , que la , que la , que la , que la , que que que la , que que que que la , que la , que la , que la , que la , que la , que la , que la , que que que la , que la , que la , que la , que la , que la , que la , que la , que la , que la , que la , que la , que la , que la , y que que que que que que que que que que que que la , que que que que la , que la , que la , que la , que la , que , que la , que y , que y que que y la que que que que que que que y la que la y la , que la que la , que la , que la , que la , que la , que la , que la , que la , que la , que la , que la , que la , que que la , que que que que la , que que que que que la , que la , que la , que la , que la , que , que la , que la , que la , que la , que la , que la , que la , que la que y y la que la y la , que la que la , que la que la y la que la que la que la que la que la y la que la que la que la que la que la que la que que que que la que que que que la la que que que la que que la la la la la la que que la que que la que que que que la que la que que que la que la que que que la que que que que la que que que que que que que que que que que la que que que que que la que la que que que que la que que la que la que la que la , la y la , que la , que la , que la y la , que la , que la , que la , que la , que la , que la y la , que la que la y la que la que la que la que la que la que la que la y la , que la y la , que la y la que la , que la que la y la y la
+--------------------------------------------------------------------------------
+Processing Epoch 05: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:23<00:00,  4.31it/s, loss=6.377]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: "What's the meaning of this?" I exclaimed.
+    TARGET: -¿Qué quiere decir esto? -exclamé.
+ PREDICTED: - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+--------------------------------------------------------------------------------
+    SOURCE: What is the use of one horse for us two?
+    TARGET: Pero yo, yo me quedo con el caballo. Os equivocáis, os lo repito.
+ PREDICTED: - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+--------------------------------------------------------------------------------
+Processing Epoch 06: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:23<00:00,  4.31it/s, loss=6.219]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: This outrageous animal had to shoulder responsibility for all derelict vessels, whose numbers are unfortunately considerable, since out of those 3,000 ships whose losses are recorded annually at the marine insurance bureau, the figure for steam or sailing ships supposedly lost with all hands, in the absence of any news, amounts to at least 200!        
+    TARGET: El fantástico animal cargó con la responsabilidad de todos esos naufragios, cuyo número es desgraciadamente considerable, ya que de los tres mil barcos cuya pérdida se registra anualnente en el Bureau Veritas, la cifra de navíos de vapor o de vela que se dan por perdidos ante la ausencia de toda noticia asciende a no menos de doscientos.
+ PREDICTED: - - - , el , el , el , que el , que el , que el , que el , que el , el , que el , que el , que el , que el , que el , que el , que el , que el , que el , que el , que el , que el , que el , que el , que el , que que que el , que el , que el , que el , que que que que el , que el , que el , que el , que el , que el , que el , que el , que el , que el , que el , que el , que el y la y que el y que el , que el , que el , que el , que el , que que que que el y que el , que el que la , que el , que el y que el , que el y que el , que la , que el , que la , que el , que que que que que que que que que que que que que que que el , que la , que la y que la que la , que la que la , que la que la que la que la que la que la que la que la que la que la que la que la que la que la , que la que la , que la , la que la , que la que la , que la , que la , que la , que la , que el , que la , que el , que la , que el , que el , que el , que el , que el , que el que la , que la , que la , que la , que la , que el , que la , que que el , que la , que la que la que la que la que la que la que la que la que la que la que la que la que la que la que la que la que la que la que la que la que la que la que la que la que la que la que la que la que la que la que la que la que la que la que la que la que la que la que la que la que la que la que la que la que la que la que la que la que la que la que la que la que la que la que la que la que la que la que la que la que la que la que la que la que la que la que la que la que la que la que la que la que la que la que la que la y la que la , el y la que la y la que la que la y la que la que el , que la que la , que el que la que la , el que la que la que la que la que la que la que la , el que la , que el , el , que la , que la que la , que la que la que la , el    
+--------------------------------------------------------------------------------
+    SOURCE: Trying not to offend the others, and promising to let them too drive him later on he hired one and told him to drive to the Shcherbatskys'.
+    TARGET: Él, procurando no molestar a los demás, y prometiendo utilizar sus servicios en otra ocasión, eligió a uno de ellos y le ordenó que le llevase a casa de los Scherbazky.   
+ PREDICTED: - - - No , el , el , el , que el , que el , que el , el , que el , el en la , que el .
+--------------------------------------------------------------------------------
+Processing Epoch 07: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:23<00:00,  4.31it/s, loss=6.040]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: If at this point you want to empty the supplementary ballast tanks in order to lighten your boat and rise to the surface, your pumps must overcome that pressure of 100 atmospheres, which is 100 kilograms per each square centimeter.
+    TARGET: Si en ese momento decide usted vaciar sus depósitos suplementarios para aligerar su barco y remontar a la superficie, las bombas tendrán que vencer esa presión de cien atmósferas o, lo que es lo mismo, de cien kilogramos por centímetro cuadrado.
+ PREDICTED: - El Artagnan , y no no no no no no no no no no que no que el , que no que no el y que el y el y la y que no que que no y que el .
+--------------------------------------------------------------------------------
+    SOURCE: 'I have long since abandoned that kind of life,' he said, wondering at the change in her face and trying to penetrate its meaning.
+    TARGET: –Hace tiempo que he dejado esa vida–repuso él, extrañado por el cambio de expresión del rostro de Ana y tratando de comprender su significado–.
+ PREDICTED: - - - El momento , no no no no no no no no no no no no no no no no no no no no no no no no no el , que el momento no no no que no que no no no no que no que no no que no que no que no no que no que no que no que no .
+--------------------------------------------------------------------------------
+Processing Epoch 08: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:23<00:00,  4.31it/s, loss=5.943]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: I asked him which they were.
+    TARGET: Le pedí que me mostrara quiénes eran.
+ PREDICTED: - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ¿ - - ¿ - - - - ¿ - ¿ - ¿ - ¿ - ¿ - ¿ - ¿ - ¿ - ¿ - - - ¿ - ¿ - ¿ - ¿ - ¿ - ¿ - ¿ - ¿ ¿ - ¿ - ¿ - ¿ - - - - ¿ - ¿ - ¿ - ¿ - ¿ - ¿ - ¿ - ¿ - - - ¿ - ¿ - ¿ - ¿ -
+--------------------------------------------------------------------------------
+    SOURCE: "The captain of the king’s Musketeers."
+    TARGET: El capitán de los mosqueteros del rey.
+ PREDICTED: - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ¿ - ¿ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ¿ - ¿ - ¿ - ¿ - - - - - - - - - - - - - - - - - - - - - - - ¿ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ¿ - - - - - ¿ - ¿ - ¿ ¿ ¿ ¿ ¿ - ¿ - ¿ - ¿ - - - - ¿ - ¿ - - ¿ - ¿ - - - - - - - - - - ¿ - ¿ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ¿ - - - - - - - - - - - - - - - - - - - - - - - ¿ - ¿ - ¿ - ¿ - ¿ - ¿ - - - - - - - - ¿ - ¿ - - - - - - - - - ¿ -
+--------------------------------------------------------------------------------
+Processing Epoch 09: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:23<00:00,  4.30it/s, loss=5.864]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: So Gregor did not go into the room, but leant against the inside of the other door which was still held bolted in place. In this way only half of his body could be seen, along with his head above it which he leant over to one side as he peered out at the others.
+    TARGET: Gregorio no entró, pues, en la habitación, sino que se apoyó en la parte intermedia de la hoja de la puerta que permanecía cerrada, de modo que sólo podía verse la mitad de su cuerpo y sobre él la cabeza, inclinada a un lado, con la cual miraba hacia los demás.
+ PREDICTED: El Artagnan que el , que el que el y el y el y el y el y el y el y la y la y la y el y el y la y el y el y la y el y el y se de la , que se y que el , que el , que se y que se y se y que se y que se y que se y que el y el de la , que se y que se y que se y se y que el y el que la y el y que el y se y que el y el y el y el y que el que el y la y que el y que la que la y que el y que se y que el y que se de la y que el y que el que la que el que el y y la y el y el y que el y la y la de la de de de la de de de de de la de de la de la y la y que la y que la de y la de de que la de que la de de de de de y la que la la que la de de de , que el , y que el , que el , y el , que la , el , que el y la , que la , que la , que el , que el , que el , que la de la , y el de la , que el , que el , que el , que el , y el y el y el , que el y de de , que el de de de de de de la de , que el , que la que la que la que la que la y la que la que el , que el , el que la , el que la el el el el que la que la el que el que el que la que el que la que la que la el la que la el la la que la que la la la la la la la la la la la la la la el y la y la que la , el que la que la la la la que la que la la la que la la que la que la que la que la que la la la que la que la el que la que la que la el el que la que la la la que la , que la y la y el , el que la que la que la y la que la el que la y la que la , el , que el y la que el el el que la el la la el el la el el que el y el y la , el , que el , que la que la , que el que el que la que el el
+--------------------------------------------------------------------------------
+    SOURCE: Do you mean to say that it was he who bestowed that severe thrust at Jussac?"
+    TARGET: ¿Y ha sido él quien ha dado esa ruda estocada a Jussac?
+ PREDICTED: ¿ No , no que que no ?
+--------------------------------------------------------------------------------
+Processing Epoch 10: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:23<00:00,  4.32it/s, loss=5.576]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: 'I'm all right.'
+    TARGET: –No, no estoy triste.
+ PREDICTED: ¿ Qué ?
+--------------------------------------------------------------------------------
+    SOURCE: He scrutinised the reverse of these living medals some five minutes, then pronounced sentence.
+    TARGET: Después de examinar durante cinco minutos las nucas de las alumnas, Mr.
+ PREDICTED: El Artagnan se había ' Artagnan , y el Artagnan y el Artagnan en la mujer y la puerta de la puerta de la puerta de la puerta de la puerta .
+--------------------------------------------------------------------------------
+Processing Epoch 11: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:23<00:00,  4.31it/s, loss=5.738]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: "I cannot suppose it possible that she should."
+    TARGET: -No veo por qué habría de estarlo.
+ PREDICTED: ¡ No , se que se ?
+--------------------------------------------------------------------------------
+    SOURCE: 'You once met him at my house, do you remember?
+    TARGET: –Le encontraste un día en mi casa... ¿No recuerdas?
+ PREDICTED: ¡ No , no ? – dijo dijo dijo .
+--------------------------------------------------------------------------------
+Processing Epoch 12: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:23<00:00,  4.30it/s, loss=5.351]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: But the question whom my wife will and whom she will not receive she will decide for herself.'
+    TARGET: Pero la cuestión de a quien reciba o no mi mujer ha de resolverla ella misma.
+ PREDICTED: El ingeniero , había ser que se a la capitán ?
+--------------------------------------------------------------------------------
+    SOURCE: This bed of fine sand was as smooth as ice, not a grain out of place.
+    TARGET: Aquella capa de arena muy fina estaba tersa como un espejo, sin que un grano sobresaliese entre los demás.
+ PREDICTED: El hombre se había ser la momento en el Artagnan , y el Artagnan en el Artagnan de la puerta de la puerta de la puerta de la puerta de la puerta de la puerta , y se había días , y en la puerta .
+--------------------------------------------------------------------------------
+Processing Epoch 13: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:23<00:00,  4.31it/s, loss=5.253]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: The archdeacon, as if to draw attention to the value of his time, coughed impatiently, making the windows vibrate.
+    TARGET: El arcediano tosía con impaciencia, como recordando el valor del tiempo, y su tos hacía vibrar los cristales de las ventanas.
+ PREDICTED: El hombre se había ser que se había sido Fix en la puerta de su marido de su marido .
+--------------------------------------------------------------------------------
+    SOURCE: Stationed in the lounge, the captain and I watched the needle swerving swiftly over the pressure gauge.
+    TARGET: Apostados en el salón, el capitán y yo observábamos la aguja del manómetro, que se desviaba rápidamente.
+ PREDICTED: El hombre se había ser que se había sido Fix en la puerta de su marido de su marido .
+--------------------------------------------------------------------------------
+Processing Epoch 14: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:23<00:00,  4.31it/s, loss=5.258]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: He took her hand and drew it toward his lips, but as if fearful that this might be disagreeable to her he changed his mind, let her hand drop, and merely stroked it.      
+    TARGET: Le tomó la mano y fue a llevarla a sus labios, pero, temiendo que ello la desagradase, desistió de su propósito y soltándole la mano se limitó a acariciarla.
+ PREDICTED: El hombre en la puerta , pero no se en la puerta de su mundo , pero a su mano de su mundo , a su mano y no se a su madre con la tierra en el mundo a su mundo , y se .     
+--------------------------------------------------------------------------------
+    SOURCE: It was enough for her that he appeared to be amiable, that he loved her daughter, and that Elinor returned the partiality.
+    TARGET: Le bastaba que él pareciera afable, que amara a su hija y que esa simpatía fuera recíproca.
+ PREDICTED: El hombre se había ser la puerta de la puerta de la puerta de la puerta de la puerta de la puerta de la puerta , pero a la puerta con la puerta ?
+--------------------------------------------------------------------------------
+Processing Epoch 15: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:23<00:00,  4.32it/s, loss=5.290]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: If I had any pride, I should not have put myself into such a position.'
+    TARGET: Si lo fuera, no me habría puesto en la situación que me he puesto.»
+ PREDICTED: – El capitán Nemo , señor ! – dijo la puerta de su marido de su marido !
+--------------------------------------------------------------------------------
+    SOURCE: Consider and reconsider, con and con over again the advices and the instructions I gave thee before thy departure hence to thy government, and thou wilt see that in them, if thou dost follow them, thou hast a help at hand that will lighten for thee the troubles and difficulties that beset governors at every step.
+    TARGET: Mira y remira, pasa y repasa los consejos y documentos que te di por escrito antes que de aquí partieses a tu gobierno, y verás como hallas en ellos, si los guardas, una ayuda de costa que te sobrelleve los trabajos y dificultades que a cada paso a los gobernadores se les ofrecen.
+ PREDICTED: El hombre que se había que era la poco , que se , que había a los , que había , que la tierra .
+--------------------------------------------------------------------------------
+Processing Epoch 16: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:23<00:00,  4.32it/s, loss=4.761]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: As soon as it was invented he would gain it.
+    TARGET: Apenas las crearan, Sergio las merecería.
+ PREDICTED: ¿ El capitán en la puerta ! exclamó Kitty , que se ha sido sentía e bella .
+--------------------------------------------------------------------------------
+    SOURCE: It was long since the farm work had seemed so important to him as it did that evening.
+    TARGET: Hacía tiempo que los asuntos de la finca no le parecían tan importantes como hoy.
+ PREDICTED: El resto se había , las tenido la puerta de las siete .
+--------------------------------------------------------------------------------
+Processing Epoch 17: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:23<00:00,  4.31it/s, loss=4.861]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: 'I can't understand how one can make so gross an error!
+    TARGET: –No comprendo tales errores.
+ PREDICTED: - a su amor a su marido .
+--------------------------------------------------------------------------------
+    SOURCE: 'And I must own,' he went on smiling and showing his compact row of teeth, 'that I seem to have been looking in a mirror the whole of this week while watching that kind of life, and it was very unpleasant.'
+    TARGET: Te confieso ––continuó, sonriendo y mostrando, al hacerlo, sus dientes blancos y apretados– que durante esta semana me he mirado en el Principe como en un espejo, y he sacado una impresión desagradable.
+ PREDICTED: - a su vida , pero no le en su marido , pero no le en su marido , los ojos de su marido en la casa y nos han días , que le parece de su marido .
+--------------------------------------------------------------------------------
+Processing Epoch 18: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:23<00:00,  4.30it/s, loss=4.726]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: "Strike me!" said the other, turning on his heels, and surveying the young man with as much astonishment as contempt.
+    TARGET: ¡Herirme a mí! dijo el otro girando sobre sus talones y mirando al joven con tanto asombro como desprecio .
+ PREDICTED: No se ha de su Artagnan , y don Quijote como la mano , y le han millas de su marido a su marido que se en la puerta con sus luz mismo , porque nunca con los
+--------------------------------------------------------------------------------
+    SOURCE: He has seen too much. Let me pass, I say!'
+    TARGET: Este hombre ha visto demasiado.
+ PREDICTED: ¡ Y no se ha sido da algo !
+--------------------------------------------------------------------------------
+Processing Epoch 19: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:23<00:00,  4.31it/s, loss=4.406]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: I thought, at any rate, that I should call you and give you the chance."
+    TARGET: En cualquier caso, me pareció que debía llamarle y darle la oportunidad.
+ PREDICTED: – En mi vez una vez es decir ! – dijo la mujer –, que ha oído ?
+--------------------------------------------------------------------------------
+    SOURCE: He rose from the sofa, took off his coat, loosened the strap, and, baring his shaggy chest to breathe more freely, walked across the room.
+    TARGET: Se levantó del diván, se quitó la levita, se aflojó el cinturón y, descubriendo su velludo pecho, para poder respirar con más facilidad, comenzó a pasear por la habitación.
+ PREDICTED: El día de la puerta , y no era media de la puerta del mar !
+--------------------------------------------------------------------------------
+Processing Epoch 20: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:23<00:00,  4.32it/s, loss=4.246]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: Conseil and I picked up two more axes. Ned Land seized a harpoon.
+    TARGET: Conseil y yo tomamos dos hachas y Ned Land un arpón.
+ PREDICTED: El capitán de la puerta ! exclamó , después de su cuarto de su cuarto de granito a .
+--------------------------------------------------------------------------------
+    SOURCE: "And you say you will wait for me at Armentieres?"
+    TARGET: ¿Y decís que me esperáis en Armentières?
+ PREDICTED: - Sí , señor .
+--------------------------------------------------------------------------------
+Processing Epoch 21: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:23<00:00,  4.31it/s, loss=4.403]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: Don Quixote dismounted and received them with a close embrace; and the boys, who are lynxes that nothing escapes, spied out the ass's mitre and came running to see it, calling out to one another, "Come here, boys, and see Sancho Panza's ass figged out finer than Mingo, and Don Quixote's beast leaner than ever."
+    TARGET: Apeóse don Quijote y abrazólos estrechamente; y los mochachos, que son linces no escusados, divisaron la coroza del jumento y acudieron a verle, y decían unos a otros: -Venid, mochachos, y veréis el asno de Sancho Panza más galán que Mingo, y la bestia de don Quijote más flaca hoy que el primer día.
+ PREDICTED: No , Sancho y que le , pero lo que le , pero , y ; pero lo que le , le , pero no , , ; pero ; pero , , ; y ; pero no le ; y ; pero , ; por vuestra merced , , , , , , , , , en su deseo ; y ; y en su marido ; y ; pero , ; y .
+--------------------------------------------------------------------------------
+    SOURCE: "Mary," I said, "how are you?"
+    TARGET: -¿Cómo está usted, Mary? -dije.
+ PREDICTED: - No .
+--------------------------------------------------------------------------------
+Processing Epoch 22: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:23<00:00,  4.26it/s, loss=3.946]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: Leave me alone!' he said, now addressing not his tutor but the world in general.
+    TARGET: Déjenme en paz –terminó dirigiéndose, no a su instructor, sino a otras personas ausentes a quienes veía todavía en su pensamiento.
+ PREDICTED: ¿ El resto no está se – repitió el capitán Nemo !
+--------------------------------------------------------------------------------
+    SOURCE: "She showed me, as I told you she would."
+    TARGET: ––Ella me lo indicó, como yo le dije que haría.
+ PREDICTED: ¿ Qué es que no puede ser dado que le ha hecho ?
+--------------------------------------------------------------------------------
+Processing Epoch 23: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:23<00:00,  4.27it/s, loss=3.867]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: His person and air were equal to what her fancy had ever drawn for the hero of a favourite story; and in his carrying her into the house with so little previous formality, there was a rapidity of thought which particularly recommended the action to her.
+    TARGET: En apariencia y aire era exacto a lo que su fantasía había siempre atribuido al héroe de sus relatos favoritos; y el haberla cargado a casa con tan poca formalidad previa revelaba una rapidez de pensamiento que en forma muy especial despertaba en ella un ánimo favorable a él.
+ PREDICTED: a través de la puerta del rey de vidrio , los colonos de desmayos de dos Cardenio .
+--------------------------------------------------------------------------------
+    SOURCE: 'That will be the doctor's quarters and the dispensary,' replied Vronsky; and seeing the architect in his short jacket coming toward them, he apologized to the ladies and went to meet him.
+    TARGET: –Son los locales destinados para el médico y la farmacia ––contestó Vronsky.
+ PREDICTED: – En estas entrado a servirle el ingeniero – –, el ingeniero es que se marchó ingenua que los mares ; pero que él que él que el bolsillo .
+--------------------------------------------------------------------------------
+Processing Epoch 24: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:22<00:00,  4.53it/s, loss=3.427]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: I cannot give you up to perdition as a vessel of wrath: repent--resolve, while there is yet time.
+    TARGET: Quiero darte, mientras pueda ser, una última posibilidad de salvación.
+ PREDICTED: Si lo está , creyó que lo está , pero lo está , pero lo está secundaria : «¡ en su marido .
+--------------------------------------------------------------------------------
+    SOURCE: "I tell you, it wants nothing--unless it is--"
+    TARGET: ¡Cuando les digo que no le falta nada... excepto...!
+ PREDICTED: - No , señor .
+--------------------------------------------------------------------------------
+Processing Epoch 25: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:21<00:00,  4.63it/s, loss=3.722]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: I had a great high shapeless cap, made of a goat’s skin, with a flap hanging down behind, as well to keep the sun from me as to shoot the rain off from running into my neck, nothing being so hurtful in these climates as the rain upon the flesh under the clothes.
+    TARGET: Llevaba un gran sombrero sin forma, hecho de piel de cabra con un colgajo en la parte de atrás, que servía para protegerme la nuca de los rayos del sol o de la lluvia, ya que no hay nada más nocivo en estos climas como la lluvia que se cuela entre la ropa.
+ PREDICTED: La barredera en que era algo , y que era algo , pero que había comprometido había podido ser , pero que él la misma ya era ya que era que era uno que había descubierto .  
+--------------------------------------------------------------------------------
+    SOURCE: Farther on rose groups of tall trees of colourless foliage and easy to recognise.
+    TARGET: Más lejos se elevaban grupos de un gran número de otros árboles de descolorido follaje.
+ PREDICTED: El mar se volvió el capitán Nemo , no había en la plataforma en la altura de Vanikoro a la ciencia del mar .
+--------------------------------------------------------------------------------
+Processing Epoch 26: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:21<00:00,  4.56it/s, loss=3.420]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: And on the morning of the wedding?"
+    TARGET: ¿Y la mañana de la boda?
+ PREDICTED: ¿ El resto no merece la puerta .
+--------------------------------------------------------------------------------
+    SOURCE: But the latter would not advance any more of the money, especially as Dolly, who had that winter for the first time plainly claimed a right to her own property, had refused to endorse the contract with a receipt for the last third of the payment. Oblonsky's whole salary went for household expenses and the liquidation of small pressing bills.
+    TARGET: El comerciante que había comprado el bosque no le daba más dinero, principalmente porque, por primera vez en su vida, Daria Alejandrovna, haciendo valer sus derechos a aquellos bienes, se había negado a firmar en el contrato haber recibido dinero a cuenta de aquella tercera parte del bosque.
+ PREDICTED: A las a su mano , y luego estaba tan sólo por la y estaba contra los y , y , que él en la luz apartado de agua ni dos de inmediato .
+--------------------------------------------------------------------------------
+Processing Epoch 27: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:21<00:00,  4.65it/s, loss=3.548]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: "Well, Barrymore --"
+    TARGET: Bien, Barrymore...
+ PREDICTED: - No , sí , señor .
+--------------------------------------------------------------------------------
+    SOURCE: A brilliant sun, but without any calorific action, was just issuing from the ocean.
+    TARGET: El sol brillante, pero sin acción calorífica, salía entonces del océano, y su enorme disco se balanceaba sobre el horizonte.
+ PREDICTED: El mar Rojo estaba muy duro , y el lacayo pasos Nemo del duelo estaba oculto por el agua al centro del Palacio de .
+--------------------------------------------------------------------------------
+Processing Epoch 28: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:21<00:00,  4.65it/s, loss=3.441]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: "I see--her ladyship's waiting-maid.
+    TARGET: ––Ya veo. La doncella de la señora.
+ PREDICTED: ¡ Qué delicia será - dijo Charlotte - dijo la pobre –.
+--------------------------------------------------------------------------------
+    SOURCE: It won't do for the curate to have a shepherdess, for the sake of good example; and if the bachelor chooses to have one, that is his look-out."
+    TARGET: El cura no será bien que tenga pastora, por dar buen ejemplo; y si quisiere el bachiller tenerla, su alma en su palma.
+ PREDICTED: – En caso – dijo Kitty – dijo Kitty ; poseyendo la ventana y os hace porción .
+--------------------------------------------------------------------------------
+Processing Epoch 29: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:21<00:00,  4.63it/s, loss=3.329]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: Pshaw!
+    TARGET: ¡Quite allá!
+ PREDICTED: ¡ Qué ! — preguntó ! – preguntó !
+--------------------------------------------------------------------------------
+    SOURCE: The horrible disease of leprosy is too common in Iceland; it is not contagious, but hereditary, and lepers are forbidden to marry.
+    TARGET: Esta horrible afección de la lepra es bastante común en Islandia. No es contagiosa, pero sí hereditaria, y por eso a estos desgraciados les está prohibido el casarse.     
+ PREDICTED: El aya me apagó y no me repitió .
+--------------------------------------------------------------------------------
+Processing Epoch 30: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:21<00:00,  4.63it/s, loss=3.077]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: This plain was not above a hundred yards broad, and about twice as long, and lay like a green before my door; and, at the end of it, descended irregularly every way down into the low ground by the seaside.
+    TARGET: Esta planicie no tenía más de cien yardas de ancho y casi el doble de largo y se extendía como un prado desde mi puerta, descendiendo irregularmente hasta la orilla del mar.
+ PREDICTED: Pero no se atreviera , a la cual , a Porthos se preguntaba . Y el a dar el peto y que tenía otro tiempo y tenía otro tiempo y tenía alguna de sus sombras de caballos en la puerta , y que se hallaba con un momento a sus derechos , y hasta que se hallaba amainó y herida ; pero no le quitó el peso ; pero tan sólo en la superficie .
+--------------------------------------------------------------------------------
+    SOURCE: Oblonsky could not repress a slightly sarcastic smile at the sight of Levin.
+    TARGET: Por eso Oblonsky no había podido reprimir una sonrisa burlona al ver a Levin.
+ PREDICTED: El resto es de un color grisáceo , que demuestra que se había utilizado papel .
+--------------------------------------------------------------------------------
+Processing Epoch 31: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:21<00:00,  4.64it/s, loss=3.229]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: What an extraordinary sensation that ray sent through me! How the new feeling bore me up!
+    TARGET: ¡Qué cambio tan profundo inspiró en mis sentimientos!
+ PREDICTED: ¿ Cuándo tus muchas promesas y mayores dádivas fueron de mí , para conocer el mundo .
+--------------------------------------------------------------------------------
+    SOURCE: "Well," said d’Artagnan to Athos, "you see, my dear friend, that this is war to the death."
+    TARGET: ¡Y bien! dijo D'Artagnan a Athos . Ya lo veis, querido amigo, es una guerra a muerte.
+ PREDICTED: – No comprendo – repuso el periodista –.
+--------------------------------------------------------------------------------
+Processing Epoch 32: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:21<00:00,  4.64it/s, loss=2.998]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: "As I grew richer I grew more ambitious, took a house in the country, and eventually married, without anyone having a suspicion as to my real occupation.
+    TARGET: »A medida que me iba haciendo rico, me fui volviendo más ambicioso: adquirí una casa en el campo y me casé, sin que nadie llegara a sospechar a qué me dedicaba en realidad.
+ PREDICTED: Pero no había causa para ello , pero le , pero lo consentía el mundo de los ojos acercarnos a la esperanza de saberlo decidió los criados .
+--------------------------------------------------------------------------------
+    SOURCE: All that night Don Quixote lay awake thinking of his lady Dulcinea, in order to conform to what he had read in his books, how many a night in the forests and deserts knights used to lie sleepless supported by the memory of their mistresses.
+    TARGET: Toda aquella noche no durmió don Quijote, pensando en su señora Dulcinea, por acomodarse a lo que había leído en sus libros, cuando los caballeros pasaban sin dormir muchas noches en las florestas y despoblados, entretenidos con las memorias de sus señoras.
+ PREDICTED: A las claras diario un terrible para los países destos arroyos mis espejos ; y con las aguas comunico mis pensamientos y con toda mí y le asustaba , y no le quitara toda la arena , en la arena , en el mármol , en la arena , en toda seguridad .
+--------------------------------------------------------------------------------
+Processing Epoch 33: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:21<00:00,  4.64it/s, loss=2.899]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: "Yes, sire."
+    TARGET: Sí, sire.
+ PREDICTED: - .
+--------------------------------------------------------------------------------
+    SOURCE: Mr. and Mrs. Rucastle were both downstairs, and the child was with them, so that I had an admirable opportunity.
+    TARGET: El señor y la señora Rucastle se encontraban en la planta baja, y el niño estaba con ellos, así que disponía de una oportunidad magnífica.
+ PREDICTED: Fairfax se asomó a la ventana y con grave acento se dijo : , se estableció en grave acento Verdad : « Ah !
+--------------------------------------------------------------------------------
+Processing Epoch 34: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:21<00:00,  4.62it/s, loss=2.841]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: Between the Countess Nordston and Levin relations had grown up such as are not infrequently met with in Society, when two people outwardly remaining in friendly relations despise each other to such an extent that they cannot treat each other seriously, or even be offended with one another.
+    TARGET: Entre ambos se habían establecido, pues, aquellas relaciones tan frecuentes en sociedad, caracterizadas por el hecho de que dos personas mantengan en apariencia relaciones de amistad sin que por eso dejen de experimentar tanto desprecio el uno por el otro que no puedan ni siquiera ofenderse.
+ PREDICTED: Pero , no se quería saber , hago los hombres que los observaciones ; la nuestras observaciones ; la cabeza , a Conseil , la cabeza , ni las ancas de mí en nuestras padres con todo a nuestras padres .
+--------------------------------------------------------------------------------
+    SOURCE: 'Well, really, how you treat him!' said Oblonsky.
+    TARGET: –¡Le tratas de un modo! –dijo Oblonsky–.
+ PREDICTED: – No comprendo – repuso Vronsky , ¿ cómo lo comprendía .
+--------------------------------------------------------------------------------
+Processing Epoch 35: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:21<00:00,  4.63it/s, loss=2.659]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: Already our friend's eyelids shivered and he made a feeble effort to move.
+    TARGET: El baronet parpadeó a los pocos instantes e hizo un débil intento de moverse.
+ PREDICTED: ¡ Qué se puede ser la mañana , después de , después de esta detención en un instante .
+--------------------------------------------------------------------------------
+    SOURCE: He sat down, wrapped a rug round his legs, and lit a cigar. 'How is it you don't smoke.?
+    TARGET: Sentóse, se envolvió las piernas en una manta de viaje que imitaba una piel de tigre y encendió un cigarro, –No puedo comprender cómo no fumas.
+ PREDICTED: El Gato , cuando vio a Alicia , se limitó a sonreír .
+--------------------------------------------------------------------------------
+Processing Epoch 36: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:21<00:00,  4.64it/s, loss=2.756]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: As for the foregrounds passing before our eyes, they were fantastically carved rocks, forests of trees that had crossed over from the vegetable kingdom into the mineral kingdom, their motionless silhouettes sprawling beneath the waves.
+    TARGET: Los primeros planos que pasaban ante nuestros ojos eran rocas fantásticamente recortadas, bosques de árboles pasados del reino vegetal al mineral y cuyas inmóviles siluetas parecían gesticular bajo el agua.
+ PREDICTED: El día 8 de diciembre no fue más que una sucesión de desmayos .
+--------------------------------------------------------------------------------
+    SOURCE: 'I expect you want it?'
+    TARGET: Supongo que tendrás ya necesidad de él.
+ PREDICTED: –– Mucho , no ?
+--------------------------------------------------------------------------------
+Processing Epoch 37: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:21<00:00,  4.63it/s, loss=2.525]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: At first sight, his address is certainly not striking; and his person can hardly be called handsome, till the expression of his eyes, which are uncommonly good, and the general sweetness of his countenance, is perceived.
+    TARGET: Es cierto que, a primera vista, su trato no produce gran admiración y su apariencia difícilmente lleva a llamarlo apuesto, hasta que se advierte la expresión de sus ojos, que son extraordinariamente bondadosos, y la general dulzura de su semblante.
+ PREDICTED: Pero no se atreviera , el señor , el ingeniero , el ingeniero estaba concentrada en el lecho de acostumbrarme al caballero , y le vieron caballero al caballero , a seguir el camino , en la hambre para él , en la pared de Barton .
+--------------------------------------------------------------------------------
+    SOURCE: Vronsky, as he stood by Oblonsky and watched these passengers coming out of the carriages, quite forgot about his mother.
+    TARGET: Vronsky, al lado de su amigo, contemplando a los viajeros que salían, se olvidó de su madre por completo.
+ PREDICTED: Pero había pronto había fallado el señor de alegría . Mi buena fantasía y se iba a dar aún le iba a otro tiempo que era ya se y y a su mujer mareado , y se en ella se , se resolvía a su mujer amainó y siguió una puerta para él .
+--------------------------------------------------------------------------------
+Processing Epoch 38: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:21<00:00,  4.63it/s, loss=2.486]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: You surprise me."
+    TARGET: Me sorprende usted.
+ PREDICTED: Oye : estás muy mojado .
+--------------------------------------------------------------------------------
+    SOURCE: Nevertheless, his brow was armed with a severity more austere than ever.
+    TARGET: Sin embargo, su frente estaba armada de una serenidad más austera que nunca.
+ PREDICTED: un poco vuestro rapto , por favor .
+--------------------------------------------------------------------------------
+Processing Epoch 39: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:21<00:00,  4.63it/s, loss=2.255]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: "Everything, Conseil?
+    TARGET: -¿Todo?
+ PREDICTED: - .
+--------------------------------------------------------------------------------
+    SOURCE: "Meanwhile, do you know where the Duchesse de Chevreuse and the Duke of Buckingham are now concealed?"
+    TARGET: Ahora, ¿sabéis dónde se ocultaban la duquesa de Chevreuse y el duque de Buckingham?
+ PREDICTED: – No , patrón , todavía no –– dijo uno de los jóvenes .
+--------------------------------------------------------------------------------
+Processing Epoch 40: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:21<00:00,  4.63it/s, loss=2.482]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: "Yes, you are right, Treville, you are right!"
+    TARGET: Sí, tenéis razón, Tréville, tenéis razón.
+ PREDICTED: - Ni siquiera lo intentaré .
+--------------------------------------------------------------------------------
+    SOURCE: In this adventure two mighty enchanters must have encountered one another, and one frustrates what the other attempts; one provided the bark for me, and the other upset me; God help us, this world is all machinations and schemes at cross purposes one with the other.
+    TARGET: Y en esta aventura se deben de haber encontrado dos valientes encantadores, y el uno estorba lo que el otro intenta: el uno me deparó el barco, y el otro dio conmigo al través. Dios lo remedie, que todo este mundo es máquinas y trazas, contrarias unas de otras.
+ PREDICTED: Pero dime , por tu vida le hizo su caballo ; las manos en su mano ; pero le parecieron mejor más amable y no podía haber singular , sino había puesto en su mano ; pero tan serio y no podía apresurada , y quería .
+--------------------------------------------------------------------------------
+Processing Epoch 41: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:21<00:00,  4.62it/s, loss=2.463]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: 'And Sitnikov too is dissatisfied with him.'
+    TARGET: Tampoco Sitnikov lo está.
+ PREDICTED: ¡ Qué delicia será - Charlotte - cuando él esté en el Parlamento ! ¿ Verdad ?
+--------------------------------------------------------------------------------
+    SOURCE: They proceeded slowly, making their way into the most rugged part of the mountain, Sancho all the while dying to have a talk with his master, and longing for him to begin, so that there should be no breach of the injunction laid upon him; but unable to keep silence so long he said to him:
+    TARGET: Íbanse poco a poco entrando en lo más áspero de la montaña, y Sancho iba muerto por razonar con su amo, y deseaba que él comenzase la plática, por no contravenir a lo que le tenía mandado; mas, no pudiendo sufrir tanto silencio, le dijo:
+ PREDICTED: Pero él era un método tan directo , por uno como la hacienda , le debía aquella misma , le debía ser que él : « , pues un cuerpo , porque siempre más tarde ; pero me los has visto , , , lo que se había enviado su misma tarde ; y cercetas , lo sea un , con nuestras pláticas lágrimas , en su desdicha a la cabeza erguida , le dirían que se había enviado que se había enviado y no se había enviado uno en ella le los pies : « ; pero no sea un caballo con todo .
+--------------------------------------------------------------------------------
+Processing Epoch 42: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:21<00:00,  4.63it/s, loss=2.368]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: "There is in this, again, something unaccountable," said the engineer, "but we will not urge our companion to speak.
+    TARGET: –Hay aquí sin duda hechos inexplicables –dijo el ingeniero–, pero no obliguemos a nuestro compañero a que hable.
+ PREDICTED: Por triste que me haya sido convencerme de ello , comprendo que es así y que no puede ser de otro modo .
+--------------------------------------------------------------------------------
+    SOURCE: The din was on the causeway: a horse was coming; the windings of the lane yet hid it, but it approached. I was just leaving the stile; yet, as the path was narrow, I sat still to let it go by.
+    TARGET: Era evidente que un caballo galopaba por el camino.
+ PREDICTED: El suelo era casi enteramente madrepórico , pero algunos lechos de torrentes , sembrados de restos , demostraban que la isla era debida a una formación primordial .       
+--------------------------------------------------------------------------------
+Processing Epoch 43: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:21<00:00,  4.62it/s, loss=2.207]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: "Tomorrow," Captain Nemo added, standing up, "tomorrow at 2:40 in the afternoon, the Nautilus will float off and exit the Torres Strait undamaged."
+    TARGET: -Mañana- añadió el capitán Nemo, levantándose- a las dos horas y cuarenta minutos de la tarde, el Nautilus estará a flote y abandonará, sin avería alguna, el estrecho de Torres.
+ PREDICTED: Pero usted a los hebreos , los mahometanos , , ¿ qué son ? Y aquella era la pregunta que resultaba peligrosa .
+--------------------------------------------------------------------------------
+    SOURCE: "No, Felton, no, my brother," said she; "the sacrifice is too great, and I feel what it must cost you.
+    TARGET: No, Felton, no, hermano mío dijo ella , el sacrificio es demasiado grande, y siento cuánto os cuesta.
+ PREDICTED: - mucho placer , podemos adivinar dónde le dije en su propia casa en Norland , con toda seguridad .
+--------------------------------------------------------------------------------
+Processing Epoch 44: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:21<00:00,  4.63it/s, loss=2.193]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: ANNA
+    TARGET: Ana.
+ PREDICTED: ¡ Qué no nos más !
+--------------------------------------------------------------------------------
+    SOURCE: I never hated anyone as I hate that man!' thought she.
+    TARGET: Nunca he odiado a nadie como a este hombre», pensaba, mientras corría hacia su habitación.
+ PREDICTED: No lo adivinará .
+--------------------------------------------------------------------------------
+Processing Epoch 45: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:21<00:00,  4.63it/s, loss=2.097]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: "Let us be off, senor," said Sancho, "for I have taken the beards and tears of these ladies deeply to heart, and I shan't eat a bit to relish it until I have seen them restored to their former smoothness.
+    TARGET: -Vamos, señor -dijo Sancho-, que las barbas y lágrimas destas señoras las tengo clavadas en el corazón, y no comeré bocado que bien me sepa hasta verlas en su primera lisura.
+ PREDICTED: - Desde la memorable aventura de los batanes - dijo don Quijote -, si están , y no podían ser que le dijo : veremos ni bien ni bien ni he visto a la que no le me me me me me me hacía un : tambien me : nuestras observaciones .
+--------------------------------------------------------------------------------
+    SOURCE: "And who made this discovery?" he asked at length.
+    TARGET: –¿Y quién ha hecho este descubrimiento? –preguntó al fin–.
+ PREDICTED: ¿ El resto es de una mujer no merece la pena .
+--------------------------------------------------------------------------------
+Processing Epoch 46: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:21<00:00,  4.63it/s, loss=2.210]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: He was passing methodically in his orbit around the world, regardless of the lesser stars which gravitated around him. Yet
+    TARGET: Cumplía racionalmente su órbita alrededor del mundo, sin inquietarse de los asteroides que giraban en su derredor.
+ PREDICTED: El portero , al ponerle su abrigo , le preguntó : «¿ Dónde al tejado y nos establecieron , pero no podía ser anotó en una libreta grande y elegantemente .
+--------------------------------------------------------------------------------
+    SOURCE: But the cold, stern look on his face when he came to tell her he was going offended her, and even before he had gone her composure was upset.
+    TARGET: Pero el tono frío y severo que empleó Vronsky aquella vez para anunciarle su viaje y la mirada que le dirigió, la ofendieron, y ya antes de su partida Ana había perdido la tranquilidad.
+ PREDICTED: El mar Rojo tiene una longitud de dos mil seiscientos kilómetros y una anchura media de doscientos cuarenta .
+--------------------------------------------------------------------------------
+Processing Epoch 47: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:21<00:00,  4.63it/s, loss=2.123]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: 'Shy, they seem to put everything upon Bill!
+    TARGET: ¡Parece que todo se lo cargan a Bill!
+ PREDICTED: ¿ Qué le habrá enviado Tréville a su marido .
+--------------------------------------------------------------------------------
+    SOURCE: "Alas! In my hurry--I--I forgot--"
+    TARGET: Que ... en mi precipitación... en mi turbación... he olvidado ...
+ PREDICTED: Y yo ya yo haría una cosa .
+--------------------------------------------------------------------------------
+Processing Epoch 48: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:21<00:00,  4.64it/s, loss=1.899]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: Freed from the usual formalities by the affable smile and gallant manners of an old governor of the port, who kissed her hand, she only remained long enough at Boulogne to put into the post a letter, conceived in the following terms:
+    TARGET: Ex¡mida de las formalidades de costumbre por la sonrisa afable y las maneras galantes de un viejo gobernador del puerto que le besó la mano, no se quedó en Boulogne más que el tiempo de poner en la posts una carts concebida en estos términos:
+ PREDICTED: Pero él , casi al momento , retiró su mirada de la joven y la cual D ' Artagnan le iba a su marido de Bombay , y luego le parecieron de D ' Artagnan estaba concentrada en la puerta , en la carne y luego se iba a dar sobre ella .
+--------------------------------------------------------------------------------
+    SOURCE: Unfortunately, as he advanced, his anger increased at every step; and instead of the proper and lofty speech he had prepared as a prelude to his challenge, he found nothing at the tip of his tongue but a gross personality, which he accompanied with a furious gesture.
+    TARGET: Desgraciadamente, a medida que avanzaba, la cólera le enceguecía más y más, y en vez del discurso digno y altivo que había preparado para formular su provocación, sólo halló en la punta de su lengua una personalidad grosera que acompañó con un gesto furioso. ¡Eh, señor! exclamó .
+ PREDICTED: No dejaba de conversar hermosa , como un poco de la que caía con un en la de las costillas ; y , y , y no podía dudar ; y la , pues siempre , debía desear diez , con toda la que , con una mansión de las costillas ; y en toda la de las hizo desear conocerla más .
+--------------------------------------------------------------------------------
+Processing Epoch 49: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:21<00:00,  4.64it/s, loss=1.961]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: 'Alexis Alexandrovich!
+    TARGET: –Créeme, Alexey Alejandrovich, Ana apreciará mucho tu bondad.
+ PREDICTED: –¡ ! – dijo Ciro Smith .
+--------------------------------------------------------------------------------
+    SOURCE: He went from one end of the train to the other, and affixed to the door of each car a notice written in manuscript.
+    TARGET: Iba de un extremo al otro del tren, y en la portezuela de cada vagón pegaba con obleas una noticia manuscrita.
+ PREDICTED: Pero él seguía con su romance a cuanto le preguntaba . Viendo esto el buen hombre , lo mejor que pudo le quitó el peto y espaldar , para ver si tenía alguna herida ; pero no vio sangre ni señal alguna .
+--------------------------------------------------------------------------------
+Processing Epoch 50: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:21<00:00,  4.63it/s, loss=2.172]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: And he fell back exhausted.
+    TARGET: Y Ayrton volvió a caer en la cama como abrumado por el cansancio.
+ PREDICTED: vengo a dar el remedio que conviene
+--------------------------------------------------------------------------------
+    SOURCE: 'Catherine Alexandrovna Levina,' answered the footman.
+    TARGET: –Catalina Alejandrovna –contestó el criado que le abrió la puerta.
+ PREDICTED: – Que haremos .
+--------------------------------------------------------------------------------
+Processing Epoch 51: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:21<00:00,  4.64it/s, loss=2.066]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: Only, I'd like to know what you mean by a 'happy year' under the circumstances in which we're placed.
+    TARGET: Pero tendré que preguntarte qué es lo que entiendes por un «buen año», en las circunstancias en que nos encontramos.
+ PREDICTED: Y Andrés Speedy , tomando el paquete de billetes , los contó , haciéndolos desaparecer en el bolsillo .
+--------------------------------------------------------------------------------
+    SOURCE: On that day Ayrton heard the report of guns.
+    TARGET: Aquel día Ayrton oyó varios cañonazos; eran las carronadas del Duncan, que hacían salvas, y en breve llegaron a bordo lord Glenarvan y los suyos.
+ PREDICTED: Las visitaba diariamente .
+--------------------------------------------------------------------------------
+Processing Epoch 52: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:21<00:00,  4.63it/s, loss=2.382]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: "Listen.
+    TARGET: Escuchad.
+ PREDICTED: – Seis .
+--------------------------------------------------------------------------------
+    SOURCE: But I only go for the sake of seeing Edward.
+    TARGET: Pero voy únicamente por ver a Edward.
+ PREDICTED: No muchos hombres como él lo ha hecho .
+--------------------------------------------------------------------------------
+Processing Epoch 53: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:21<00:00,  4.64it/s, loss=2.061]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: "What! not finished?"
+    TARGET: ¡Cómo! ¿No está concluido?
+ PREDICTED: Haced como yo .
+--------------------------------------------------------------------------------
+    SOURCE: Then one very serious question arose presently which we scarcely dared to suggest.
+    TARGET: Pero se nos presentaba una grave cuestión que no osábamos resolver.
+ PREDICTED: ¿ Existía en las partes no de la isla algún cómplice dispuesto a entrar en comunicación con ellos ?
+--------------------------------------------------------------------------------
+Processing Epoch 54: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:21<00:00,  4.65it/s, loss=2.014]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: All five advanced and indeed, through the window fronting them, they saw glimmering a feeble light.
+    TARGET: Los colonos adelantaron hacia la puerta y, a través de los vidrios de la ventana que les daba frente, vieron temblar un débil resplandor.
+ PREDICTED: El Nautilus está hecho para reposar en el lecho de los alegre y se estableció en el bolsillo .
+--------------------------------------------------------------------------------
+    SOURCE: "PARDIEU, monsieur, I can’t be more sure.
+    TARGET: Claro que estoy seguro; la doncella ha dicho: «Para tu amo.»
+ PREDICTED: -¡ Qué delicia será - dijo Charlotte - cuando él esté en el Parlamento ! ¿ Verdad ?
+--------------------------------------------------------------------------------
+Processing Epoch 55: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:21<00:00,  4.63it/s, loss=2.087]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: 'I don't regret that, but I cannot help feeling ashamed before others of the position I am in.
+    TARGET: No lo siento. pero no puedo dejar de avergonzarme ante la gente de la situación en que me hallo.
+ PREDICTED: Si me lo está , sobra todo , ¿ no está , compro yo el oído todo lo está , ¿ qué es más serían una desgracia familiar como alguna .
+--------------------------------------------------------------------------------
+    SOURCE: He was taking off my shawl in the hall, and shaking the water out of my loosened hair, when Mrs. Fairfax emerged from her room.
+    TARGET: Mientras Rochester me quitaba el chal y alisaba mi cabello despeinado por el agua, Mrs. Fairfax salió de su cuarto.
+ PREDICTED: Sin embargo , conociendo la debilidad y sobre todo la codicia de su marido , no desesperaba de atraerle a sus fines . ¡ Ah !
+--------------------------------------------------------------------------------
+Processing Epoch 56: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:21<00:00,  4.62it/s, loss=1.952]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: Instead of digging all around the Nautilus, which would have entailed even greater difficulties, Captain Nemo had an immense trench outlined on the ice, eight meters from our port quarter.
+    TARGET: En lugar de excavar en torno al Nautilus, lo que habría procurado dificultades suplementarias, el capitán Nemo hizo dibujar el gran foso a ocho metros de la línea de babor.
+ PREDICTED: La distancia que hay entre Liverpool y Londres debía correrse en cinco horas y media , cosa muy fácil estando la vía libre ; pero hubo , y cuando el gentleman llegó a la estación , todos los relojes de Londres señalaban las nueve menos diez .
+--------------------------------------------------------------------------------
+    SOURCE: 'Well, gentlemen...' and the sitting commenced.
+    TARGET: ¡Ea, señores! Y la oficina en pleno comenzó a trabajar.
+ PREDICTED: –¿ Vronsky ? – preguntó Harbert esté –– dijo Esteban Arkadievich lo a la isla Tabor .
+--------------------------------------------------------------------------------
+Processing Epoch 57: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:21<00:00,  4.62it/s, loss=1.995]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: Just then, leaning over the forecastle railing, I saw Ned Land below me, one hand grasping the martingale, the other brandishing his dreadful harpoon.
+    TARGET: Inclinado sobre la batayola de proa veía yo por debajo de mí a Ned Land, quien, asido de una mano al moco del bauprés, blandía con la otra su terrible arpón.
+ PREDICTED: Pero el caso es éste : hay dos mujeres . Una de ellas no se apoya más que en sus derechos , en nombre de los cuales te exige un amor que no le puedes conceder .
+--------------------------------------------------------------------------------
+    SOURCE: "It's like your impudence to say so: I expected it of you; I heard it in your step as you crossed the threshold."
+    TARGET: -Esperaba que tuviese usted ese descaro: lo he comprendido por el ruido de sus pies al cruzar el umbral.
+ PREDICTED: - Sí , sí , señor , eso lo sé bien , y estaba decidida a descubrir dónde habían estado . Espero que le guste su casa , señorita Marianne .
+--------------------------------------------------------------------------------
+Processing Epoch 58: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:21<00:00,  4.62it/s, loss=2.210]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: Was he overwhelmed by the presence of men whose fellow he had once been?
+    TARGET: ¿Estaba aturdido por la presencia de aquellos hombres, cuyo semejante había sido?
+ PREDICTED: ¿ A mí , a una falta dijo fríamente Athos -.
+--------------------------------------------------------------------------------
+    SOURCE: "’Oh, leave me!’ said I. ’Begone, if you do not desire to see me dash my head against that wall before your eyes!’
+    TARGET: Salid si no queréis que ante vuestros ojos me rompa la cabeza contra la pared.»
+ PREDICTED: Si me lo está , sobra todo - Miss hombres que no puede irse a bordo de su situación .
+--------------------------------------------------------------------------------
+Processing Epoch 59: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:21<00:00,  4.64it/s, loss=1.934]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: "Listen.
+    TARGET: Escuchad.
+ PREDICTED: –– Pues , sí .
+--------------------------------------------------------------------------------
+    SOURCE: The joiners had plenty to do.
+    TARGET: Los carpinteros tuvieron mucho que hacer: se perfeccionaron los útiles, que eran muy rudimentarios, y también se hicieron otros para completar la herramienta.
+ PREDICTED: ¿ Cuándo tus muchas promesas y mayores dádivas fueron de mí , ni admitidas ?
+--------------------------------------------------------------------------------
+Processing Epoch 60: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:26<00:00,  3.72it/s, loss=1.908]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: "Well," said Don Quixote, "if that be thy determination, good Sancho, sensible Sancho, Christian Sancho, honest Sancho, let us leave these phantoms alone and turn to the pursuit of better and worthier adventures; for, from what I see of this country, we cannot fail to find plenty of marvellous ones in it."
+    TARGET: -Pues ésa es tu determinación -replicó don Quijote-, Sancho bueno, Sancho discreto, Sancho cristiano y Sancho sincero, dejemos estas fantasmas y volvamos a buscar mejores y más calificadas aventuras; que yo veo esta tierra de talle, que no han de faltar en ella muchas y muy milagrosas.
+ PREDICTED: - Verdad dices - dijo don Quijote -, y así , no adivino ni doy en lo que esto pueda ser ; mas , : veremos si en este librillo de memoria hay alguna cosa escrita por donde podamos rastrear y venir en conocimiento de lo que deseamos .
+--------------------------------------------------------------------------------
+    SOURCE: Athos, who was very expert in all bodily exercises, passed with d’Artagnan to the opposite side and challenged them; but at the first effort he made, although he played with his left hand, he found that his wound was yet too recent to allow of such exertion.
+    TARGET: Athos, que era muy aficionado a todos los ejercicios corporales, pasó con D'Artagnan al lado opuesto, y los desafió. Pero al primer movimiento que intentó, aunque jugaba con la mano derecha, comprendió que su herida era demasiado reciente aún para permitirle semejante ejercicio.
+ PREDICTED: Pero antes de conversar un hoyo por medio hacía que esta puesto por llevar un hora y habló de vista , sino por aquellos por aquellos por los planes . , les estaba lobos iban pisándole los cascos y prueba que se de su vida .
+--------------------------------------------------------------------------------
+Processing Epoch 61: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:23<00:00,  4.26it/s, loss=2.151]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: 'Oh dear, I have not laughed so much for a long time!' said Varenka, collecting her sunshade and bag.
+    TARGET: –¡Hace tiempo que no había reído como hoy! –dijo Vareñka, cogiendo la sombrilla y el bolso–.
+ PREDICTED: Algunos años puede ser muy inconveniente desprenderse de cien , o incluso de cincuenta libras , de nuestros propios gastos .
+--------------------------------------------------------------------------------
+    SOURCE: But being in master's employ, I followed master."
+    TARGET: Pero como estoy al servicio del señor, seguí al señor.
+ PREDICTED: Pero dime , por tu vida : ¿ has visto más valeroso caballero que yo en todo lo que ha hecho muy bien ?
+--------------------------------------------------------------------------------
+Processing Epoch 62: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:23<00:00,  4.25it/s, loss=1.891]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: He said that he was a detective, and he offered me two guineas if I would do exactly what he wanted all day and ask no questions.
+    TARGET: Dijo que era detective y me ofreció dos guineas si seguía exactamente sus instrucciones durante todo el día y no hacía preguntas.
+ PREDICTED: Pero a la larga la los esfuerzos de Elinor , que enérgicamente ese permanente .
+--------------------------------------------------------------------------------
+    SOURCE: "I thank you, sir," replied the prisoner, humbly.
+    TARGET: Os lo agradezco, señor respondió humildemente la prisionera.
+ PREDICTED: - Ni yo , Ned , si no consigo atrapar un ave del paraíso .
+--------------------------------------------------------------------------------
+Processing Epoch 63: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:23<00:00,  4.26it/s, loss=1.822]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: 'If you love your offspring, then you, as a kind father, will desire not only riches, luxury, and honours for your child, but will desire his salvation, his spiritual advancement by the light of truth.
+    TARGET: Si quiere usted a sus hijos, como buen padre, deseará para ellos no sólo las riquezas, el lujo y los honores, sino también la salvación, la clarividencia espiritual en la luz de la verdad.
+ PREDICTED: - Así es verdad - dijo don Quijote -. Lo que puedes hacer dél es dejarle a sus aventuras , ora se pierda o no , porque serán tantos los caballos que tendremos , después que salgamos vencedores , que aun corre peligro Rocinante no le trueque por otro .
+--------------------------------------------------------------------------------
+    SOURCE: Depuis douze ans, John, emprisonné dans sa vallée, absorbé par son travail, n’avait guere preté l’oreille aux nouvelles du monde extérieur.
+    TARGET: John, encerrado en el valle y absorbido por el trabajo diario, había tenido menguadísimas oportunidades de asomarse al mundo en torno durante los últimos doce años.       
+ PREDICTED: El monte se componía de dos conos . El primero , a una altura de unos dos mil quinientos pies , estaba sostenido por caprichosos contrafuertes , que parecían como los dientes de una inmensa sierra aplicada al cuello .
+--------------------------------------------------------------------------------
+Processing Epoch 64: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:23<00:00,  4.23it/s, loss=1.841]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: "Tiny Bear" is grown up!' continued the Frenchwoman, laughing and reminding him of his old joke when he called the three young ladies the Three Bears of the English fairy tale.
+    TARGET: ¡Tinny bear es ya mayor! –continuó, riendo, y recordando los apelativos que antiguamente daba Levin a cada una de las tres hermanas, equiparándolas a los tres oseznos de un cuento popular inglés–.
+ PREDICTED: Así como el frío da una forma invariable y fija a cada de agua , convirtiéndola en un fragmento determinado de nieve , así cada nuevo cliente que llegaba al balneario ocupaba su correspondiente lugar .
+--------------------------------------------------------------------------------
+    SOURCE: Now he was not even as she had left him; he was still further removed from the four-year-old child; he had grown still more and had got thinner. What did it mean?
+    TARGET: Pero ahora no, estaba tal como le dejó. Su aspecto difería mucho del de un niño de cuatro años; había crecido y adelgazado.
+ PREDICTED: Pero el caso es éste : hay dos mujeres . Una de ellas no se apoya más que en sus derechos , en nombre de los cuales te exige un amor que en aquella casa de Athos era siempre en los cuales te canses de los cuales dijo en sus puerta y a los caballos alta Eso era una cueva .
+--------------------------------------------------------------------------------
+Processing Epoch 65: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:23<00:00,  4.26it/s, loss=1.932]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: My master, indeed, that's a part of her—for, he's always calling her 'my life' and 'my soul,' and his stay and prop—may and ought to whip himself for her and take all the trouble required for her disenchantment. But for me to whip myself!
+    TARGET: El señor mi amo sí, que es parte suya, pues la llama a cada paso mi vida, mi alma, sustento y arrimo suyo, se puede y debe azotar por ella y hacer todas las diligencias necesarias para su desencanto; pero, ¿azotarme yo...?
+ PREDICTED: Oyólo Ambrosio y dijo : - Ése es el último papel que escribió el desdichado ; y , porque veáis , señor , en el término que le tenían sus desventuras , de modo que seáis oído ; que sólo todos aquellos que Jesús , que se en toda ocasión a ello el último cabello de muy desdichado ; que le asombró el último nuevo ante todos aquellos que le tenían por la sierra del entierro , que era en toda darle ocasión a ello a caballo de interés en la familia y sin familia y más que principal parte de interés sin familia .
+--------------------------------------------------------------------------------
+    SOURCE: The idea of using a form of poison which could not possibly be discovered by any chemical test was just such a one as would occur to a clever and ruthless man who had had an Eastern training.
+    TARGET: La idea de utilizar una clase de veneno que los análisis químicos no pudieran descubrir parecía digna de un hombre inteligente y despiadado, con experiencia en Oriente.   
+ PREDICTED: La ausencia podía haber debilitado su interés y por conveniencia podría haberse decidido a ponerle fin , pero que tal interés había existido , de eso no podía dudar aunque lo intentara .
+--------------------------------------------------------------------------------
+Processing Epoch 66: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:23<00:00,  4.26it/s, loss=1.884]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: St. John is unmarried: he never will marry now.
+    TARGET: John no se casó, ni se casará ya nunca.
+ PREDICTED: Sergio Ivanovich comprendía también que había que explicarse ahora o no lo harían nunca .
+--------------------------------------------------------------------------------
+    SOURCE: "This, then, was his father's residence?"
+    TARGET: -Entonces, ¿era ésta la casa de su padre?
+ PREDICTED: —¡ El rector ! — repitió este último —.
+--------------------------------------------------------------------------------
+Processing Epoch 67: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:23<00:00,  4.27it/s, loss=1.853]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: "They're coming, ma'am," was the answer.
+    TARGET: ¿Qué hay? -Ya vienen, señora -respondió él-.
+ PREDICTED: ¿ Y decís que se ha portado bien ese joven ?
+--------------------------------------------------------------------------------
+    SOURCE: And now you will see the house in a moment.
+    TARGET: Ahora verás la casa –siguió–.
+ PREDICTED: –– Me habéis sido recomendado . Es he informes sobre vuestra conducta .
+--------------------------------------------------------------------------------
+Processing Epoch 68: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:23<00:00,  4.28it/s, loss=1.885]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: 'Yes, I have forgiven you, but it is dreadful!'
+    TARGET: Le he perdonado ya. ¡Pero es horrible!
+ PREDICTED: – Que haremos .
+--------------------------------------------------------------------------------
+    SOURCE: 'Oh, dear me!' exclaimed Levin, so loudly that he scared Koznyshev.
+    TARGET: –¡Dios mío! –exclamó de pronto Levin, con voz tan fuerte que asustó a Sergio Ivanovich.
+ PREDICTED: Perdone , no tengo derecho a ... – rectificó Levin .
+--------------------------------------------------------------------------------
+Processing Epoch 69: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:23<00:00,  4.23it/s, loss=1.802]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: Take pity on me, then, and go!
+    TARGET: Tened, pues, piedad de mí y partid.
+ PREDICTED: - Ni siquiera lo intentaré .
+--------------------------------------------------------------------------------
+    SOURCE: Therefore, if these vapours remain in their usual condition, if they display no augmentation of force, and if you add to this the observation that the wind and rain are not ceasing and being replaced by a still and heavy atmosphere, then you may affirm that no eruption is preparing."
+    TARGET: Si, pues, estos vapores se mantienen en su estado habitual, si no aumenta su energía, y si añades a esta observación que la lluvia y el viento no son reemplazados por un aire pesado y en calma, puedes desde luego afirmar que no habrá erupción próxima.
+ PREDICTED: No podía contener mi sorpresa ante la calma negligente con que iba Sherlock Holmes sus observaciones . –– Desde luego no hay un momento que perder –– exclamé ––: ¿ le parece que llame ahora mismo a un coche de caballos ?
+--------------------------------------------------------------------------------
+Processing Epoch 70: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:23<00:00,  4.22it/s, loss=1.749]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: Were we to reach a depth of thirty miles we should have arrived at the limit of the terrestrial crust, for there the temperature will be more than 2372 degrees." "Are you afraid of being put into a state of fusion?"
+    TARGET: Con sólo descender a una profundidad de diez leguas, habríamos llegado al límite de la corteza terrestre, porque ya la temperatura sería allí superior a 300°. —¿Es que temes liquidarte?
+ PREDICTED: – Hay que mantener esta posición a toda costa - se dejó caer de rodillas y pegó el oído al suelo -.
+--------------------------------------------------------------------------------
+    SOURCE: "It seems to me," said Ayrton, who had reclined so as to place his ear to the ground, "it seems to me that I can hear a dull, rumbling sound, like that of a wagon loaded with bars of iron."
+    TARGET: –Me parece –dijo Ayrton, que se había tendido en tierra aplicando el oído al suelo–, me parece oír un trueno sordo y prolongado, un ruido como no lo haría un carro cargado de barras de hierro.
+ PREDICTED: - Eso no consentiré yo en ningún modo - dijo el cura -: estése la vuestra grandeza a caballo , pues estando a caballo acaba las mayores fazañas y aventuras que en nuestra edad se han visto ; que a mí , aunque indigno sacerdote , subir en las ancas de una destas mulas destos señores que con vuestra merced caminan , si no lo han por enojo . Y aun haré cuenta que voy caballero sobre el gran cuesta , o sobre la gran cuesta en las cosas o sobre la gran cuesta , o sobre la gran cuesta nuestras gran gran gran gran cuesta , sin gran cuesta bondad de nuestras pláticas las gran cuesta nuestras pláticas yace encantado en la gran cuesta nuestras pláticas ninguna nuestras propósitos .
+--------------------------------------------------------------------------------
+Processing Epoch 71: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:23<00:00,  4.25it/s, loss=1.793] 
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: "Isn't it a beauty?
+    TARGET: ¡Sí, magnífico!
+ PREDICTED: ¡ Oh ! Os confieso que me da completamente igual .
+--------------------------------------------------------------------------------
+    SOURCE: 'But who was it screaming?'
+    TARGET: «Sin duda debe de ser así», se dijo.
+ PREDICTED: - Lo he dudado mucho .
+--------------------------------------------------------------------------------
+Processing Epoch 72: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:23<00:00,  4.23it/s, loss=1.807] 
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: "It is not astonishing, with such a heavy sea," replied the sailor.
+    TARGET: –No es extraño, con una mar tan fuerte –contestó el marino–.
+ PREDICTED: -¿ Se inclina usted entonces hacia la explicación sobrenatural ?
+--------------------------------------------------------------------------------
+    SOURCE: "Is Bombay far from here?" asked Passepartout.
+    TARGET: ¿Está lejos Bombay? Preguntó Picaporte.
+ PREDICTED: - Ni siquiera lo intentaré .
+--------------------------------------------------------------------------------
+Processing Epoch 73: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:23<00:00,  4.28it/s, loss=1.760] 
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: Chapter 11 The Man on the Tor
+    TARGET: 11. El hombre del risco
+ PREDICTED: Ana fuera de su amor no deseaba nada .
+--------------------------------------------------------------------------------
+    SOURCE: The question for you is, whether you desire not to have any more children; for me it is, whether I desire to have them.
+    TARGET: Para ti la cuestión es «si quieres todavía tener hijos», para mí es « si me está permitido tenerlos».
+    TARGET: Para ti la cuestión es «si quieres todavía tener hijos», para mí es « si me está permitido tenerlos».
+ PREDICTED: Si usted me lo permite , yo voy a instalarme en los del bauprés y si conseguimos acercarnos a tiro de arpón , lo .
+--------------------------------------------------------------------------------
+Processing Epoch 74: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:25<00:00,  3.90it/s, loss=1.737] 
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: "Blessed be Allah the all-powerful!" says Hamete Benengeli on beginning this eighth chapter; "blessed be Allah!" he repeats three times; and he says he utters these thanksgivings at seeing that he has now got Don Quixote and Sancho fairly afield, and that the readers of his delightful history may reckon that the achievements and humours of Don Quixote and his squire are now about to begin; and he urges them to forget the former chivalries of the ingenious gentleman and to fix their eyes on those that are to come, which now begin on the road to El Toboso, as the others began on the plains of Montiel; nor is it much that he asks in consideration of all he promises, and so he goes on to say:
+    TARGET: ''¡Bendito sea el poderoso Alá! -dice Hamete Benengeli al comienzo deste octavo capítulo-. ¡Bendito sea Alá!'', repite tres veces; y dice que da estas bendiciones por ver que tiene ya en campaña a don Quijote y a Sancho, y que los letores de su agradable historia pueden hacer cuenta que desde este punto comienzan las hazañas y donaires de don Quijote y de su escudero; persuádeles que se les olviden las pasadas caballerías del ingenioso hidalgo, y pongan los ojos en las que están por venir, que desde agora en el camino del Toboso comienzan, como las otras comenzaron en los campos de Montiel, y no es mucho lo que pide para tanto como él promete; y así prosigue diciendo:
+ PREDICTED: Bien parece un gallardo caballero , a los ojos de su rey , en la mitad de una gran plaza , dar una gran plaza , dar una lanzada con felice suceso a la , y en la mitad de la en la tela en alegres justas delante de las damas , y bien parecen todos los que en ejercicios militares , o que lo parezcan , entretienen y alegran , y , y , y , y , y , y , y , y , y que en toda las selvas y como haya sido desiertos , bien bien afortunada cima , bien con haya sido parte del vencimiento de las selvas y por los montes anda buscando peligrosas aventuras , por las soledades , por alcanzar gloriosa fama y bien por alcanzar gloriosa fama y por los montes anda buscando peligrosas por los montes anda buscando peligrosas bien con intención de darles dichosa y por los , ni haya sido tajadas el mundo haya sido á leyes de otras ceremonias deste jaez del vencimiento de los desafíos particulares de otras ceremonias deste jaez ; pero en otras ceremonias deste jaez ; por otras ceremonias deste jaez ; pero : tambien me parece un sol , por los más , por los , por los , en los desafíos particulares de los desafíos particulares de persona a persona a persona a persona a partir .
+--------------------------------------------------------------------------------
+    SOURCE: "By the faith of a gentleman.
+    TARGET: ¡A fe de gentilhombre!
+ PREDICTED: Yo diría que conozco a esa gran dama .
+--------------------------------------------------------------------------------
+Processing Epoch 75: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:24<00:00,  4.16it/s, loss=1.657] 
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: "About eighteen hundred or two thousand a year; not more than THAT."
+    TARGET: -Alrededor de mil ochocientas o dos mil libras al año; no más que eso. Elinor se echó a reír.
+ PREDICTED: “ ” me dije enseguida , después de haber hecho una buena provisión de aire en mis pulmones .
+--------------------------------------------------------------------------------
+    SOURCE: 'Yes, and what will Catherine Alexandrovna do?' asked Kuzma.
+    TARGET: –¿Y para Katerina Alejandrovna? –preguntó Kusmá.
+ PREDICTED: – No me engaño – dijo el periodista –.
+--------------------------------------------------------------------------------
+Processing Epoch 76:  89%|██████████████████████████████████████████████████████████████████████████████████████████████████▊            | 89/100 [00:21<00:02,  4.24it/s, loss=1.761] 
+Traceback (most recent call last):
+  File "C:\Users\Silver Surfer\Documents\GitHub\transformer_pytorch_scratch\main.py", line 77, in <module>
+    train_loop(model= model, loss_fn= loss_fn, optimizer= optimizer, train_dataloader=train_dataloader,
+  File "C:\Users\Silver Surfer\Documents\GitHub\transformer_pytorch_scratch\utils.py", line 111, in train_loop
+    loss.backward()
+  File "C:\Users\Silver Surfer\anaconda3\envs\transformer\lib\site-packages\torch\_tensor.py", line 487, in backward
+    torch.autograd.backward(
+  File "C:\Users\Silver Surfer\anaconda3\envs\transformer\lib\site-packages\torch\autograd\__init__.py", line 200, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

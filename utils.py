@@ -39,7 +39,7 @@ def get_weights_file_path(epoch: str):
 
 # Find the latest weights file in the weights folder
 def latest_weights_file_path():
-    model_folder = f"{DATASOURCE}_{model_folder}"
+    model_folder = f"{DATASOURCE}_{MODEL_FOLDER}"
     model_filename = f"{MODEL_BASENAME}*"
     weights_files = list(Path(model_folder).glob(model_filename))
     if len(weights_files) == 0:
@@ -62,16 +62,20 @@ def train_loop(model, loss_fn, optimizer, train_dataloader, val_dataloader, toke
         print(f'Preloading model {model_filename}')
         state = torch.load(model_filename)
         model.load_state_dict(state['model_state_dict'])
+        print("Loaded Model State")
         initial_epoch = state['epoch'] + 1
+        print(f"Last Epoch trained: {initial_epoch}")
         optimizer.load_state_dict(state['optimizer_state_dict'])
+        print("Loaded Optimizer State")
         global_step = state['global_step']
+        print(f"Last Global Step: {global_step}")
     else:
         print('No model to preload, starting from scratch')
 
     # Setup TensorBoard
-    curr_dt = datetime.now()
-    curr_dt = curr_dt.strftime("%d-%m-%Y %H-%M")
-    writer = SummaryWriter(log_dir=f'runs/T_training/{curr_dt}') # creates folder based on current date time
+    #curr_dt = datetime.now()
+    #curr_dt = curr_dt.strftime("%d-%m-%Y %H-%M")
+    writer = SummaryWriter(log_dir=f'runs/T_training/{EXPERIMENT_NAME}') # creates folder based on current date time
     writer.close()
 
     for epoch in range(initial_epoch, TRAINING_EPOCHS):
@@ -100,7 +104,7 @@ def train_loop(model, loss_fn, optimizer, train_dataloader, val_dataloader, toke
             batch_iterator.set_postfix({"loss": f"{loss.item():6.3f}"})
 
             # Log the loss
-            writer.add_scalar('train loss', loss.item(), global_step)
+            writer.add_scalar('Training/Loss', loss.item(), global_step)
             writer.flush()
 
             # Backpropagate the loss
@@ -115,18 +119,18 @@ def train_loop(model, loss_fn, optimizer, train_dataloader, val_dataloader, toke
         # Run validation at the end of every epoch
         run_validation(model, val_dataloader, tokenizer_src, tokenizer_trg, SEQ_LEN, device, lambda msg: batch_iterator.write(msg), global_step, writer)
 
-        # Save the model at the end of every epoch
-        model_filename = get_weights_file_path(f"{epoch:02d}")
+        if epoch%2==0:
+            # Save the model at the end of every epoch
+            model_filename = get_weights_file_path(f"{epoch:02d}")
 
-        # Also a good idea to save optimizer state, epoch, etc. to resume training
-        torch.save({
-            'epoch': epoch,
-            'model_state_dict': model.state_dict(),
-            'optimizer_state_dict': optimizer.state_dict(),
-            'global_step': global_step
-        }, model_filename)
-
-
+            #Also a good idea to save optimizer state, epoch, etc. to resume training
+            torch.save({
+                'epoch': epoch,
+                'model_state_dict': model.state_dict(),
+                'optimizer_state_dict': optimizer.state_dict(),
+                'global_step': global_step
+            }, model_filename)
+    
 def run_validation(model, validation_ds, tokenizer_src, tokenizer_trg, max_len, device, print_msg, global_step, writer, num_examples=2):
     model.eval()
     count = 0
@@ -185,19 +189,19 @@ def run_validation(model, validation_ds, tokenizer_src, tokenizer_trg, max_len, 
         # Compute the char error rate 
         metric = torchmetrics.CharErrorRate()
         cer = metric(predicted, expected)
-        writer.add_scalar('validation cer', cer, global_step)
+        writer.add_scalar('Validation/cer', cer, global_step)
         writer.flush()
 
         # Compute the word error rate
         metric = torchmetrics.WordErrorRate()
         wer = metric(predicted, expected)
-        writer.add_scalar('validation wer', wer, global_step)
+        writer.add_scalar('Validation/wer', wer, global_step)
         writer.flush()
 
         # Compute the BLEU metric
         metric = torchmetrics.BLEUScore()
         bleu = metric(predicted, expected)
-        writer.add_scalar('validation BLEU', bleu, global_step)
+        writer.add_scalar('Validation/BLEU', bleu, global_step)
         writer.flush()
 
 

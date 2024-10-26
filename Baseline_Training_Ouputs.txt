@@ -1,0 +1,396 @@
+C:\Users\Silver Surfer\anaconda3\envs\transformer\lib\site-packages\torchaudio\backend\utils.py:74: UserWarning: No audio backend is available.
+  warnings.warn("No audio backend is available.")
+Using device: cuda
+Device name: NVIDIA GeForce RTX 3090
+Device memory: 23.99951171875 GB
+Machine: w
+Execution: t
+Input Splits: 3
+Number of Heads: 8
+Number of Encoder/Decoder Blocks: 6
+Embeddings Dimension: 512
+Training Batch Size: 8
+Training Epochs: 15
+Learning Rate: 0.001
+Max length of source sentence: 767
+Max length of target sentence: 782
+No model to preload, starting from scratch
+Processing Epoch 00: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10516/10516 [57:57<00:00,  3.02it/s, loss=6.336]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: I shall want your help to-night."
+    TARGET: Necesitaré su ayuda esta noche.
+ PREDICTED: ¡ Y !
+--------------------------------------------------------------------------------
+    SOURCE: She became restive, insisted upon her rights, and finally announced her positive intention of going to a certain ball.
+    TARGET: Ella se rebela, reclama sus derechos y por fin anuncia su firme intención de asistir a cierto baile.
+ PREDICTED: – No , que se dijo , y , y , y , y , y a la puerta .
+--------------------------------------------------------------------------------
+C:\Users\Silver Surfer\anaconda3\envs\transformer\lib\site-packages\torchmetrics\utilities\prints.py:61: FutureWarning: Importing `CharErrorRate` from `torchmetrics` was deprecated and will be removed in 2.0. Import `CharErrorRate` from `torchmetrics.text` instead.
+  _future_warning(
+C:\Users\Silver Surfer\anaconda3\envs\transformer\lib\site-packages\torchmetrics\utilities\prints.py:61: FutureWarning: Importing `WordErrorRate` from `torchmetrics` was deprecated and will be removed in 2.0. Import `WordErrorRate` from `torchmetrics.text` instead.
+  _future_warning(
+C:\Users\Silver Surfer\anaconda3\envs\transformer\lib\site-packages\torchmetrics\utilities\prints.py:61: FutureWarning: Importing `BLEUScore` from `torchmetrics` was deprecated and will be removed in 2.0. Import `BLEUScore` from `torchmetrics.text` instead.
+  _future_warning(
+Processing Epoch 01: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10516/10516 [57:34<00:00,  3.04it/s, loss=6.712]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: What is past is past! You know what she wants and is waiting for: the divorce.'
+    TARGET: Lo hecho hecho está y sabes muy bien que lo que ella desea y espera es el divorcio.
+ PREDICTED: ¿ Qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué qué
+--------------------------------------------------------------------------------
+    SOURCE: Its cream-colored tint, plus the streaks and markings that decorated it like so many hieroglyphics, made it a rare trinket.
+    TARGET: Su color bayo ylas rayas y caracteres que a modo de jeroglíficos lo decoraban hacían del huevo un raro objeto de adorno.
+ PREDICTED: – No , no es , no el ingeniero .
+--------------------------------------------------------------------------------
+Processing Epoch 02: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10516/10516 [57:31<00:00,  3.05it/s, loss=6.233]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: The rooms were carefully examined, and results all pointed to an abominable crime.
+    TARGET: Se registraron minuciosamente las habitaciones, y todos los resultados parecían indicar un crimen abominable.
+ PREDICTED: ¿ Qué ?
+--------------------------------------------------------------------------------
+    SOURCE: Who can possibly have told you I had had that dream?
+    TARGET: ¿Quién ha podido deciros que yo había tenido ese sueño?
+ PREDICTED: - No , señor .
+--------------------------------------------------------------------------------
+Processing Epoch 03: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10516/10516 [57:46<00:00,  3.03it/s, loss=6.338]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: By my faith, it is very fortunate that the letter was not in it."
+    TARGET: Ha sido una suerte que la carta que llevo no haya estado dentro.
+ PREDICTED: ¡ Qué es qué !
+--------------------------------------------------------------------------------
+    SOURCE: 'When I'm a Duchess,' she said to herself, (not in a very hopeful tone though), 'I won't have any pepper in my kitchen at all.
+    TARGET: «Cuando yo sea Duquesa», se dijo (aunque no con demasiadas esperanzas de llegar a serlo), «no tendré ni una pizca de pimienta en mi cocina.
+ PREDICTED: - No , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor ,
+--------------------------------------------------------------------------------
+Processing Epoch 04: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10516/10516 [57:51<00:00,  3.03it/s, loss=6.099]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: And so, moved by compassion, he said to him, as they all sat on the green grass awaiting the arrival of the provisions:
+    TARGET: Y así, movido de compasión, después de haberse sentado todos en la verde yerba, para esperar el repuesto del canónigo, le dijo:
+ PREDICTED: - No , ¿ qué ?
+--------------------------------------------------------------------------------
+    SOURCE: "Right," the captain replied, "this tobacco comes from neither Havana nor the Orient.
+    TARGET: -No -respondió el capitán-, este tabaco no procede ni de La Habana ni de Oriente.
+ PREDICTED: ¿ Y qué no ?
+--------------------------------------------------------------------------------
+Processing Epoch 05: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10516/10516 [57:50<00:00,  3.03it/s, loss=6.221]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: To be sure most of those one finds do not end as pleasantly as one could wish, for out of a hundred, ninety-nine will turn out cross and contrary.
+    TARGET: Bien es verdad que las más que se hallan no salen tan a gusto como el hombre querría, porque de ciento que se encuentran, las noventa y nueve suelen salir aviesas y torcidas.
+ PREDICTED: - No , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor ,
+--------------------------------------------------------------------------------
+    SOURCE: He came up to Kitty, reminding her of the first quadrille and regretting that he had not seen her for such a long time.
+    TARGET: En cuanto a éste, se acercó a Kitty, recordándole su compromiso de la primera contradanza y diciéndole que sentía mucho no haberla visto hasta entonces.
+ PREDICTED: – No , no es decir , que no se , y no se , y no se , y no se , y no se , y no se , y no se , y no se , y no se , y no se , y no se , y no se , y no se , y no se , y , y , y , y , y , y no se , y no se , y no se , y no se , y no se , y no se , y no se , y no se , y no se , y no se , y no se , y no se , y no se , y , y , y , y , y , y no se , y no se , y no se , y , y no se , y , y , y , y no se , y no se , y , y no se , y , y no se , y no se , y no se , y no se , y no se , y no se , y , y , y no se , y no se , y , y , y , y , y , y , y , y , y , y , y , y , y , y , y , y , y , y , y , y , y , y no se , y no se , y , y no se , y , y , y , y , y , y , y , y no se , y , y , y , y , y , y no se , y , y , y , y no se , y , y no se , y , y , y , y no se , y , y no se , y no se , y , y , y no se , y no se , y , y , y , y , y , y , y , y no se , y , y , y no se , y , y , y , y , y , y , y , y , y , y , y , y , y , y , y , y , y , y , y , y , y , y , y , y , y , y , y , y , y , y , y , y , y , y , y , y , y , y , y , y , y , y , y , y , y , y no se , y , y , y , y , y , y , y , y , y , y , y , y , y , y , y , y , y , y , y , y , y , y , y , y , y , y , y , y , y , y , y , y , y no se , y , y , y no se , y , y , y , y , y , y , y , y , y , y , y , y no se
+--------------------------------------------------------------------------------
+Processing Epoch 06: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10516/10516 [57:34<00:00,  3.04it/s, loss=5.687]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: But if we returned to the Pacific, far from every populated shore, what would happen to Ned Land's plans?
+    TARGET: Pero si volvíamos al Pacífico, lejos de toda tierra habitada, ¿cómo podría llevar a cabo sus proyectos Ned Land?
+ PREDICTED: ¿ Qué es que no se ha sido de la isla ?
+--------------------------------------------------------------------------------
+    SOURCE: How long that state of insensibility had lasted I cannot say. I had no means now of taking account of time.
+    TARGET: No sabría decir cuánto duró este estado de insensibilidad, puesto que ya no tenía medio de darme cuenta del tiempo.
+ PREDICTED: ¿ Qué es que no ?
+--------------------------------------------------------------------------------
+Processing Epoch 07: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10516/10516 [57:41<00:00,  3.04it/s, loss=6.120]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: What is his name?"
+    TARGET: ¿Cómo se llama?
+ PREDICTED: ¿ Y qué ?
+--------------------------------------------------------------------------------
+    SOURCE: "Port Neb, that would do very well!
+    TARGET: El “puerto Nab” suena muy bien.
+ PREDICTED: ¿ Y qué ?
+--------------------------------------------------------------------------------
+Processing Epoch 08: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10516/10516 [57:34<00:00,  3.04it/s, loss=5.852]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: "Therefore the savants are wrong by 2,705°, and the proportional increase is a mistake.
+    TARGET: —Sólo faltan 1.474 grados y cuatro décimas para que los sabios tengan razón. Queda, pues, establecido que el aumento de la temperatura proporcionalmente a la profundidad es un error. 
+ PREDICTED: ¿ Qué es ?
+--------------------------------------------------------------------------------
+    SOURCE: At present the peasants around here are buying land – that does not pain me.
+    TARGET: Que los aldeanos compren tierras al lado de las nuestras no me ofende.
+ PREDICTED: ¿ Qué es ?
+--------------------------------------------------------------------------------
+Processing Epoch 09: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10516/10516 [57:52<00:00,  3.03it/s, loss=5.867]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: "But he does," said Don Jeronimo; "I cannot remember, however, in what way, though I know his words are offensive, and what is more, lying, as I can see plainly by the physiognomy of the worthy Sancho before me."
+    TARGET: -Sí llama -dijo don Jerónimo-, pero no me acuerdo en qué manera, aunque sé que son malsonantes las razones, y además, mentirosas, según yo echo de ver en la fisonomía del buen Sancho que está presente.
+ PREDICTED: - No no es que no me Quijote , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor
+--------------------------------------------------------------------------------
+    SOURCE: I've been on his track for years and have never set eyes on him yet."
+    TARGET: Llevo años siguiéndole la pista y jamás he logrado ponerle los ojos encima.
+ PREDICTED: ¿ Qué es ?
+--------------------------------------------------------------------------------
+Processing Epoch 10: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10516/10516 [57:49<00:00,  3.03it/s, loss=6.296]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: 'Stremov and Lisa Merkalova are the cream of the cream of Society!
+    TARGET: Lisa Merkalova y Stremov son la crema de la sociedad.
+ PREDICTED: - Sí .
+--------------------------------------------------------------------------------
+    SOURCE: The muscles, clearly marked beneath the network of sinews, stretched in the fine, mobile skin, which was smooth as satin, seemed hard as bone.
+    TARGET: Entre la red de sus nervios, sus prominentes músculos, dibujándose a través de la piel fina, flexible y suave como el raso, parecían tan fuertes como los huesos.
+ PREDICTED: - No , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor ,
+--------------------------------------------------------------------------------
+Processing Epoch 11: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10516/10516 [58:12<00:00,  3.01it/s, loss=5.448]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: One thing specially surprised me, and that was, there were no journeyings backward and forward, no visits to Ingram Park: to be sure it was twenty miles off, on the borders of another county; but what was that distance to an ardent lover?
+    TARGET: Una cosa que me sorprendía mucho era que Rochester no visitaba Ingram Park. Si bien este lugar estaba sito a veinte millas, en los límites de otro condado, ¿qué era esa distancia para un enamorado ardiente?
+ PREDICTED: - No , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor ,
+--------------------------------------------------------------------------------
+    SOURCE: All these were English, strongly made, of good quality, and evidently very expensive.
+    TARGET: Todo muy moderno, nuevo, inglés, sólido, excelente y costoso.
+ PREDICTED: ¿ Qué ?
+--------------------------------------------------------------------------------
+Processing Epoch 12: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10516/10516 [58:04<00:00,  3.02it/s, loss=6
+(base) PS C:\Users\Silver Surfer\Documents\GitHub\transformer_pytorch_scratch> conda activate transformer
+(transformer) PS C:\Users\Silver Surfer\Documents\GitHub\transformer_pytorch_scratch> python main.py
+C:\Users\Silver Surfer\anaconda3\envs\transformer\lib\site-packages\torchaudio\backend\utils.py:74: UserWarning: No audio backend is available.
+  warnings.warn("No audio backend is available.")
+Using device: cuda
+Device name: NVIDIA GeForce RTX 3090
+Device memory: 23.99951171875 GB
+Machine: w
+Execution: t
+Input Splits: 3
+Number of Heads: 8
+Number of Encoder/Decoder Blocks: 6
+Embeddings Dimension: 512
+Training Batch Size: 8
+Training Epochs: 15
+Learning Rate: 0.001
+Max length of source sentence: 767
+Max length of target sentence: 782
+Preloading model opus_books_weights\tmodel_14.pt
+(transformer) PS C:\Users\Silver Surfer\Documents\GitHub\transformer_pytorch_scratch> python main.py
+C:\Users\Silver Surfer\anaconda3\envs\transformer\lib\site-packages\torchaudio\backend\utils.py:74: UserWarning: No audio backend is available.
+  warnings.warn("No audio backend is available.")
+Using device: cuda
+Device name: NVIDIA GeForce RTX 3090
+Device memory: 23.99951171875 GB
+Machine: w
+Execution: t
+Input Splits: 3
+Number of Heads: 8
+Number of Encoder/Decoder Blocks: 6
+Embeddings Dimension: 512
+Training Batch Size: 8
+Training Epochs: 30
+Learning Rate: 0.001
+Max length of source sentence: 767
+Max length of target sentence: 782
+Preloading model opus_books_weights\tmodel_14.pt
+Loaded Model State
+Last Epoch trained: 15
+Loaded Optimizer State
+Last Global Step: 157740
+Processing Epoch 15: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 10516/10516 [57:53<00:00,  3.03it/s, loss=6.444]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: 'So much the better. I shall guess them.'
+    TARGET: –Yo los adivinaré, y será aún mejor.
+ PREDICTED: ¿ Qué le ha hecho ?
+--------------------------------------------------------------------------------
+    SOURCE: 'Let me kiss your pretty face.
+    TARGET: Hasta la vista, Condesa. –Adiós, querida amiga –respondió la Vronskaya–.
+ PREDICTED: ¿ Qué es ?
+--------------------------------------------------------------------------------
+C:\Users\Silver Surfer\anaconda3\envs\transformer\lib\site-packages\torchmetrics\utilities\prints.py:61: FutureWarning: Importing `CharErrorRate` from `torchmetrics` was deprecated and will be removed in 2.0. Import `CharErrorRate` from `torchmetrics.text` instead.
+  _future_warning(
+C:\Users\Silver Surfer\anaconda3\envs\transformer\lib\site-packages\torchmetrics\utilities\prints.py:61: FutureWarning: Importing `WordErrorRate` from `torchmetrics` was deprecated and will be removed in 2.0. Import `WordErrorRate` from `torchmetrics.text` instead.
+  _future_warning(
+C:\Users\Silver Surfer\anaconda3\envs\transformer\lib\site-packages\torchmetrics\utilities\prints.py:61: FutureWarning: Importing `BLEUScore` from `torchmetrics` was deprecated and will be removed in 2.0. Import `BLEUScore` from `torchmetrics.text` instead.
+  _future_warning(
+Processing Epoch 16: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 10516/10516 [57:58<00:00,  3.02it/s, loss=6.047]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: Despite the weight of two bodies, the blast of the hurricane shook them in the air.
+    TARGET: Pese al peso de los dos cuerpos, el soplo del huracán los balanceaba en el aire.
+ PREDICTED: – No , ¿ qué ?
+--------------------------------------------------------------------------------
+    SOURCE: Twice, during one of these hurricanes, the Mercy swelled to such a degree as to give reason to fear that the bridges would be swept away, and it was necessary to strengthen those on the shore, which disappeared under the foaming waters, when the sea beat against the beach.
+    TARGET: Dos veces, durante una de aquellas corrientes, el río de la Merced creció hasta el punto de inspirar temores de que el puente y los puentecillos desaparecieran y hubo que consolidar los de la playa, que quedaban siempre cubiertos bajo las olas cuando el mar batía el litoral.
+ PREDICTED: – No , no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me parece que no me
+--------------------------------------------------------------------------------
+Processing Epoch 17: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 10516/10516 [58:04<00:00,  3.02it/s, loss=6.705]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: Such was her parting concern; for after this, she had time only to pay her farewell compliments to Mrs. Jennings, before her company was claimed by Mrs. Richardson; and Elinor was left in possession of knowledge which might feed her powers of reflection some time, though she had learnt very little more than what had been already foreseen and foreplanned in her own mind.
+    TARGET: Tal fue su preocupación al separarse, pues tras haberlo dicho, sólo tuvo tiempo de presentar sus respetos y despedirse de la señora Jennings antes de que la señora Richardson reclamara su compañía; y así, Elinor quedó en posesión de información que serviría de alimento a sus reflexiones durante algún tiempo, aunque no se había enterado de casi nada que ya no hubiera previsto y supuesto por sí misma.
+ PREDICTED: ¿ Qué es posible que no se ha hecho ?
+--------------------------------------------------------------------------------
+    SOURCE: It would be to your advantage as well as mine if I might leave the house for five minutes.'
+    TARGET: Te conviene tanto como a mí dejarme salir de casa cinco minutos.
+ PREDICTED: ¿ Qué es posible que se ha hecho ?
+--------------------------------------------------------------------------------
+Processing Epoch 18: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 10516/10516 [58:04<00:00,  3.02it/s, loss=6.397]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: "I will call Diana and Mary."
+    TARGET: Voy a llamar a Diana y a Mary.
+ PREDICTED: ¿ Qué ?
+--------------------------------------------------------------------------------
+    SOURCE: "What shall we do now?" whispered Sir Henry.
+    TARGET: »-¿Y ahora qué hacemos? -susurró Sir Henry.
+ PREDICTED: ¿ Qué ?
+--------------------------------------------------------------------------------
+Processing Epoch 19: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 10516/10516 [58:02<00:00,  3.02it/s, loss=5.108]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: Was it not their interest in the situation in which they found themselves to begin a new life?
+    TARGET: ¿No estaba su interés bien entendido en emprender una vida nueva en las condiciones en que necesariamente tenían que vivir?
+ PREDICTED: ¿ Qué es ?
+--------------------------------------------------------------------------------
+    SOURCE: You are silent?
+    TARGET: ¿Guardáis silencio?
+ PREDICTED: ¿ Qué ?
+--------------------------------------------------------------------------------
+Processing Epoch 20: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 10516/10516 [58:04<00:00,  3.02it/s, loss=5.969]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: Look at the construction work going on under these waves."
+    TARGET: Mire usted el trabajo que está realizándose bajo el mar.
+ PREDICTED: ¿ Qué es ?
+--------------------------------------------------------------------------------
+    SOURCE: Jane Eyre
+    TARGET: Jane Eyre
+ PREDICTED: Capítulo II
+--------------------------------------------------------------------------------
+Processing Epoch 21: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 10516/10516 [58:04<00:00,  3.02it/s, loss=6.093]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: I walked a little while on the pavement after tea, thinking of you; and I beheld you in imagination so near me, I scarcely missed your actual presence.
+    TARGET: Después de tomar el té, salí a pasear un poco ante la casa, y con tal intensidad pensaba en usted, que casi me parecía tenerle presente.
+ PREDICTED: ¡ Ah ! exclamó D ' Artagnan !
+--------------------------------------------------------------------------------
+    SOURCE: "They escaped, and a book has appeared under the title of 'Twenty Thousand Leagues Under the Sea,' which contains your history."
+    TARGET: –No, señor, y, bajo el título de Veinte mil leguas de viaje submarino, se ha publicado una obra que contiene la historia de usted.
+ PREDICTED: El Nautilus se había hecho de la puerta , y el camino .
+--------------------------------------------------------------------------------
+Processing Epoch 22: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 10516/10516 [58:02<00:00,  3.02it/s, loss=6.128]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: We moved with difficulty across these granite fissures and chasms mingled with silex, crystals of quartz, and alluvial deposits, when a field, nay, more than a field, a vast plain, of bleached bones lay spread before us.
+    TARGET: Avanzábamos con dificultad sobre aquellas fragosidades de granito, mezclado con sílice, cuarzo y depósitos aluvionarios, cuando descubrió nuestra vista una vasta llanura cubierta de osamentas.
+ PREDICTED: - No , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor , señor ,
+--------------------------------------------------------------------------------
+    SOURCE: "Monsieur the Cardinal!" cried the stupefied Musketeer.
+    TARGET: ¡Señor cardenal! exclamó el mosquetero estupefacto.
+ PREDICTED: ¡ Oh !
+--------------------------------------------------------------------------------
+Processing Epoch 23: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 10516/10516 [58:04<00:00,  3.02it/s, loss=5.187]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: "Or Ayrton?"
+    TARGET: –¿O Ayrton?
+ PREDICTED: ¡ Qué es que no se ha sido !
+--------------------------------------------------------------------------------
+    SOURCE: "Hum!
+    TARGET: ––¡Hum!
+ PREDICTED: ¡ Qué !
+--------------------------------------------------------------------------------
+Processing Epoch 24: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 10516/10516 [58:04<00:00,  3.02it/s, loss=5.795]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: 'Is he not right that everything on earth is evil and horrid?
+    TARGET: «¿No tendrá razón cuando dice que todo en el mundo es malo y repugnante?
+ PREDICTED: ¿ Y qué ?
+--------------------------------------------------------------------------------
+    SOURCE: And what on earth am I to say to them?'
+    TARGET: «¿Y qué les diré?»
+ PREDICTED: ¿ Y qué ?
+--------------------------------------------------------------------------------
+Processing Epoch 25: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 10516/10516 [58:17<00:00,  3.01it/s, loss=5.859]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: A gesture from him brought us to a halt, and however much I wanted to clear this wall, I had to stop.
+    TARGET: Por muchos deseos que hubiera tenido de franquear aquella muralla hube de pararme.
+ PREDICTED: ¿ Qué es usted ?
+--------------------------------------------------------------------------------
+    SOURCE: You will kill yourself," cried Planchet.
+    TARGET: ¡Cállate, imbécil! dijo D'Artagnan.
+ PREDICTED: ¡ !
+--------------------------------------------------------------------------------
+Processing Epoch 26: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 10516/10516 [58:01<00:00,  3.02it/s, loss=6.350]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: Lady Elliott wished to give a dance.
+    TARGET: Lady Elliott deseaba ofrecer un baile.
+ PREDICTED: ¡ Ah !
+--------------------------------------------------------------------------------
+    SOURCE: "De Wardes; I know it," cried d’Artagnan.
+    TARGET: De Wardes, lo sé exclamó D'Artagnan.
+ PREDICTED: ¡ Ah !
+--------------------------------------------------------------------------------
+Processing Epoch 27: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 10516/10516 [57:32<00:00,  3.05it/s, loss=5.373]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: 'I passed by his garden, and marked, with one eye, How the Owl and the Panther were sharing a pie--'
+    TARGET: Cuando terminaron de comérselo, al búho le tocaba sólo la fuente que contenía el pastel. Cuando terminaron de comérselo, el búho como regalo, se llevó en el bolsillo la cucharilla, en tanto la pantera, con el cuchillo y el tenedor, terminaba el singular banquete.
+ PREDICTED: ¿ Qué queréis que no se propone hombre ?
+--------------------------------------------------------------------------------
+    SOURCE: She was one of the ladies who sang: a gentleman accompanied her on the piano.
+    TARGET: Cantó muy bien y uno de los caballeros la acompañó al piano.
+ PREDICTED: ¿ Qué queréis que no se propone hombre ?
+--------------------------------------------------------------------------------
+Processing Epoch 28: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 10516/10516 [57:42<00:00,  3.04it/s, loss=6.735]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: We stayed there nearly a week: I and Sophie used to walk every day in a great green place full of trees, called the Park; and there were many children there besides me, and a pond with beautiful birds in it, that I fed with crumbs."
+    TARGET: Estuvimos allí una semana y Sophie y yo íbamos a pasear todos los días a un sitio verde lleno de árboles que se llama el parque. Allí había muchos niños y un estanque con pájaros y yo les echaba migas.
+ PREDICTED: - No , no es un hombre de la señora , ¿ cómo ?
+--------------------------------------------------------------------------------
+    SOURCE: "Who has?"
+    TARGET: ¿Quién?
+ PREDICTED: ¿ Qué es ?
+--------------------------------------------------------------------------------
+Processing Epoch 29: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 10516/10516 [59:07<00:00,  2.96it/s, loss=5.687]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: "You are wounded?" asked Buckingham, as he opened the letter.
+    TARGET: ¿Estáis herido? preguntó Buckingham rompiendo el sello. ¡Oh!
+ PREDICTED: ¿ Qué es usted ?
+--------------------------------------------------------------------------------
+    SOURCE: No sooner had those who were with Don Quixote seen them than they turned about and withdrew to some distance from the road, for they knew that if they stayed some harm might come to them; but Don Quixote with intrepid heart stood his ground, and Sancho Panza shielded himself with Rocinante's hind-quarters.
+    TARGET: No los hubieron bien visto los que con don Quijote estaban, cuando, volviendo las espaldas, se apartaron bien lejos del camino, porque conocieron que si esperaban les podía suceder algún peligro; sólo don Quijote, con intrépido corazón, se estuvo quedo, y Sancho Panza se escudó con las ancas de Rocinante.
+ PREDICTED: - No , no es que no es un hombre de la merced .
+--------------------------------------------------------------------------------
+(transformer) PS C:\Users\Silver Surfer\Documents\GitHub\transformer_pytorch_scratch> 
