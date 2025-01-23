@@ -1,0 +1,91 @@
+    SOURCE: As this horse approached, and as I watched for it to appear through the dusk, I remembered certain of Bessie's tales, wherein figured a North-of-England spirit called a "Gytrash," which, in the form of horse, mule, or large dog, haunted solitary ways, and sometimes came upon belated travellers, as this horse was now coming upon me.
+    TARGET: Mientras procuraba distinguir entre la penumbra la aparición del caballo, evocaba ciertas historias de Bessie en las que figuraba un espíritu de los países del Norte de Inglaterra, el Gytrash, que en forma de caballo, mula o perro gigantesco, recorría los caminos solitarios y asaltaba a los viajeros.
+ PREDICTED: Mientras esto , me hallaba en el coche , y me pareció ver a través de los de las de Inglaterra , que oí decir que en Inglaterra había un espíritu de , un animal llamado , de los , de los cuales , en especial , se hallaba en el caballo , y en especial , me hallaba en aquel momento en que me hallaba .
+--------------------------------------------------------------------------------
+    SOURCE: Therefore, whether from the windows of Granite House, or from Prospect Heights, Herbert and Gideon Spilett, when they were not hunting, or Neb, unless presiding over his fires, never left the telescope, but watched all the animal's movements.
+    TARGET: Ahora bien, sucedió que la ballena que los colonos habían visto no quiso, al parecer, abandonar las aguas de la isla, y desde las ventanas del Palacio de granito y desde la meseta de la Gran Vista, Harbert y Gedeón Spilett, cuando no estaban de caza, y Nab, mientras vigilaba sus hornillos, no dejaban el anteojo de la mano observando todos los movimientos del animal.
+ PREDICTED: Por eso , si el Palacio de granito o de granito , Harbert , Harbert y Gedeón Spilett , cuando estaban , no eran fuegos artificiales , ni un , ni un solo animal , ni un solo animal , ni un solo animal , ni un solo animal , ni un solo animal , ni un solo animal , ni un solo movimiento de movimientos .
+--------------------------------------------------------------------------------
+Processing Epoch 23: 100%|███████████████████████████████████████████████████████████████████████████████| 10000/10000 [31:09<00:00,  5.35it/s, loss=3.716]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: "Here I am."
+    TARGET: Ya estoy aquí.
+ PREDICTED: –– Aquí estoy .
+--------------------------------------------------------------------------------
+    SOURCE: His friendship was of value to me: to lose it tried me severely.
+    TARGET: Me disgustaba perder su amistad, que apreciaba en mucho.
+ PREDICTED: Su amistad era mi fortuna . Me de mí .
+--------------------------------------------------------------------------------
+Processing Epoch 24: 100%|███████████████████████████████████████████████████████████████████████████████| 10000/10000 [31:08<00:00,  5.35it/s, loss=3.945]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: "'And the work?'
+    TARGET: »––¿Y el trabajo?
+ PREDICTED: »––¿ Y el trabajo ?
+--------------------------------------------------------------------------------
+    SOURCE: Should he really call for help though, even apart from the fact that all the doors were locked?
+    TARGET: Bueno, aparte de que las puertas estaban cerradas, ¿debía de verdad pedir ayuda?
+ PREDICTED: ¿ Debía llamar a la puerta , aunque incluso a la puerta de la casa estaban cerradas con toda la cerradura ?
+--------------------------------------------------------------------------------
+Processing Epoch 25: 100%|███████████████████████████████████████████████████████████████████████████████| 10000/10000 [31:09<00:00,  5.35it/s, loss=3.756]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: The two friends repaired to Athos’s, and he, faithful to his vow of not going out, took upon him to order dinner to be brought to them. As he was perfectly acquainted with the details of gastronomy, d’Artagnan and Aramis made no objection to abandoning this important care to him.
+    TARGET: Los dos amigos se dirigieron primero a casa de Athos que, fiel al juramento que había hecho de no salir, se encargó de hacerse traer a cena a casa; como entendía a las mil maravillas los detalles gastronómicos, D'Artagnan y Aramis no pusieron ninguna dificultad en dejarle ese importante cuidado.
+ PREDICTED: Los dos amigos se habían ido a buscar a Athos y a Athos , y a su buen seguro de que no se le , le habían tomado la cena , como lo había hecho , y D ' Artagnan no sabía qué hacer para aquel modo de hacer .
+--------------------------------------------------------------------------------
+    SOURCE: 'Well, and where is our host?' he inquired.
+    TARGET: –Veo que nuestro huésped se retrasa–dijo Vaseñka Veselovsky.
+ PREDICTED: –¿ Y dónde está nuestro huésped ? – preguntó .
+--------------------------------------------------------------------------------
+Processing Epoch 26: 100%|███████████████████████████████████████████████████████████████████████████████| 10000/10000 [31:10<00:00,  5.35it/s, loss=4.536]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: Well, you too have power over me, and may injure me: yet I dare not show you where I am vulnerable, lest, faithful and friendly as you are, you should transfix me at once."
+    TARGET: Y permanecería tan inmutable como una estrella fija... En fin: usted puede influir en mí y hasta herirme aunque no la mostrara mi lado vulnerable.
+ PREDICTED: Pero , ¿ qué quieres que me y me , no me , sino que no te , como tú , sino que eres desgraciada , como tú , y si me ?
+--------------------------------------------------------------------------------
+    SOURCE: On returning home he had been angry with his wife because she had not managed to pacify the landlady, who clamoured for the rent.
+    TARGET: De vuelta a su casa, se enfadó con su mujer por no haber sabido ésta contestar adecuadamente a la dueña de la casa, que pedía el dinero del alquiler.
+ PREDICTED: Al volver a casa de su mujer , no se había perdonado a la esposa de que no se , porque la princesa Bárbara , que tenía que hacer una .
+--------------------------------------------------------------------------------
+Processing Epoch 27: 100%|███████████████████████████████████████████████████████████████████████████████| 10000/10000 [31:10<00:00,  5.35it/s, loss=4.151]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: My esteem for your whole family is very sincere; but if I have been so unfortunate as to give rise to a belief of more than I felt, or meant to express, I shall reproach myself for not having been more guarded in my professions of that esteem.
+    TARGET: Estimo muy sinceramente a toda su familia; pero si he sido tan desafortunado como para dar pie a que mis sentimientos se creyeran mayores de lo que son o de lo que quise expresar, mucho me recriminaré por no haber sido más cuidadoso en las manifestaciones de esa estima.
+ PREDICTED: Mi familia es muy sincero para mí , pero si me hubiera dado tan desgraciada , me habría dado tan desgraciada que me ha dado a entender que me sentía más culpable que a mí , o más bien , me sentía por haber hecho una reproche o por haber sido más desdichada .
+--------------------------------------------------------------------------------
+    SOURCE: Their wood was stowed away in one of the rooms, and the sailor laid in the fireplace some logs and brushwood.
+    TARGET: La provisión de leña fue almacenada en uno de los departamentos y el marino puso sobre las piedras de la hoguera algunos leños mezclados con ramas secas.
+ PREDICTED: El bosque estaba destinado a abrirse en una de las habitaciones del Palacio de granito y en la chimenea había algunos y otros .
+--------------------------------------------------------------------------------
+Processing Epoch 28: 100%|███████████████████████████████████████████████████████████████████████████████| 10000/10000 [31:10<00:00,  5.35it/s, loss=3.922]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: Overpowered by this time with weariness, I scarcely noticed what sort of a place the bedroom was, except that, like the schoolroom, I saw it was very long.
+    TARGET: Ya estaba tan muerta de cansancio, que no me di cuenta siquiera de cómo era el dormitorio, salvo que, como el cuarto de estudio, me pareció muy grande.
+ PREDICTED: por esta vez , apenas veía ni una especie de dormitorio , ni siquiera el dormitorio , ni el dormitorio , ni la habitación , ni la vi en la habitación .
+--------------------------------------------------------------------------------
+    SOURCE: But what was clearest in all this was that the true hatred, the profound hatred, the inveterate hatred of Milady, was increased by his not having killed her brother-in-law.
+    TARGET: Pero lo más claro de todo aquello es que el odio verdadero, el odio profundo, el odio inveterado de Milady procedía de que no había matado a su cuñado.
+ PREDICTED: Pero , ¿ qué podía hacer en todo esto todo esto , que el odio , el odio , el odio de Milady , fue más fuerte que sus esfuerzos , no a su cuñado ?
+--------------------------------------------------------------------------------
+Processing Epoch 29: 100%|███████████████████████████████████████████████████████████████████████████████| 10000/10000 [31:09<00:00,  5.35it/s, loss=3.733]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: "How, monsieur!
+    TARGET: ¿Cómo que he llegado?
+ PREDICTED: ¡ Cómo , señor !
+--------------------------------------------------------------------------------
+    SOURCE: Des deux pilules renfermées dans la boîte, l’une contenait un poison mortel, l’autre était parfaitement inoffensive.
+    TARGET: De las dos píldoras que hay en este pastillero, una es inofensiva, mientras que su compañera encierra un veneno mortal.
+ PREDICTED: Se dos en la cartera un , una pluma terrible , y entonces quedó la más espantosa de la alegría .

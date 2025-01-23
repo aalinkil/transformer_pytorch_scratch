@@ -1,0 +1,71 @@
+Processing Epoch 94: 100%|█████████████████████████████████████████████████████████████████████████████████| 1000/1000 [03:07<00:00,  5.35it/s, loss=1.975]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: Levin did not hear what she was speaking about while she leaned toward her brother but was struck by the change in her expression.
+    TARGET: Levin no oyó lo que Ana decía en voz baja a su hermano, al oído, pero el cambio que se había manifestado en su rostro le impresionó.
+ PREDICTED: Levin salió en silencio y aquella amiga de vodka .
+--------------------------------------------------------------------------------
+    SOURCE: "Mr. Spilett!" exclaimed the sailor, seizing the reporter, and clasping him to his breast with such a squeeze that he had never felt anything like it before.
+    TARGET: –¡Oh, señor Spilett! –exclamó el marino abrazando al periodista, que jamás había sufrido un apretón tan grande.
+ PREDICTED: –¡ Ayrton ! – gritó el marino , que , levantando los ojos de su estancia en aquel islote . Y el pregunta en apoyo :
+--------------------------------------------------------------------------------
+Processing Epoch 95: 100%|█████████████████████████████████████████████████████████████████████████████████| 1000/1000 [03:07<00:00,  5.34it/s, loss=1.873]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: Long since you ought to have crushed it: now you should blush to allude to it.
+    TARGET: Hace tiempo que debías haberla olvidado.
+ PREDICTED: Te pensarlo quince días en el viaje , es preciso que habíamos establecido por el viaje .
+--------------------------------------------------------------------------------
+    SOURCE: The young men sprang up, and seized their muskets.
+    TARGET: Los jóvenes se levantaron con presteza a los fusiles.
+ PREDICTED: La criada pidió unas del despacho y acaso que hablaba .
+--------------------------------------------------------------------------------
+Processing Epoch 96: 100%|█████████████████████████████████████████████████████████████████████████████████| 1000/1000 [03:07<00:00,  5.35it/s, loss=1.829]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: "Go to the Carnatic, and engage three cabins."
+    TARGET: Id al "Carnatic" y tomad tres camarotes.
+ PREDICTED: –– Ayer se , parece que esta noche .
+--------------------------------------------------------------------------------
+    SOURCE: You owe a very humble apology to that noble lad, your son, who has carried himself in this matter as I should be proud to see my own son do, should I ever chance to have one."
+    TARGET: Le debe usted las más humildes disculpas a ese noble muchacho, su hijo, que se ha comportado en todo este asunto de un modo que a mí me enorgullecería en mi propio hijo, si es que alguna vez llego a tener uno.
+ PREDICTED: Me ha dicho que no me ha de ser todo esto , y su padre mal como viva .
+--------------------------------------------------------------------------------
+Processing Epoch 97: 100%|█████████████████████████████████████████████████████████████████████████████████| 1000/1000 [03:07<00:00,  5.34it/s, loss=1.946]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: "They will promise everything for the sake of the money, and on the road fear will prevent them from acting.
+    TARGET: Prometerán todo para tener el dinero, y en camino el miedo los impedirá actuar.
+ PREDICTED: , pues , el gentilhombre inglés que no era más que cada vez en dos palabras :
+--------------------------------------------------------------------------------
+    SOURCE: But it can't be helped!
+    TARGET: Pero, ¿qué vamos a hacer?
+ PREDICTED: Pero , sire ...
+--------------------------------------------------------------------------------
+Processing Epoch 98: 100%|█████████████████████████████████████████████████████████████████████████████████| 1000/1000 [03:07<00:00,  5.35it/s, loss=1.891]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: "Why?
+    TARGET: –¿Para qué?
+ PREDICTED: ¿ Por qué ?...
+--------------------------------------------------------------------------------
+    SOURCE: "Here are your reports, my dear fellow, and very well thumbed, I assure you.
+    TARGET: -Aquí están sus informes, mi querido amigo, que he estudiado muy a fondo, se lo aseguro.
+ PREDICTED: vuestras dos manos ; por Su Eminencia , y le aseguro que me esa nube es tiempo .
+--------------------------------------------------------------------------------
+Processing Epoch 99: 100%|█████████████████████████████████████████████████████████████████████████████████| 1000/1000 [03:07<00:00,  5.34it/s, loss=2.098]
+'stty' is not recognized as an internal or external command,
+operable program or batch file.
+--------------------------------------------------------------------------------
+    SOURCE: But Don Fernando told him to hold his tongue and on no account interrupt Don Quixote, who continued,
+    TARGET: Al cual mandó don Fernando que callase y no interrumpiese la plática de don Quijote en ninguna manera; y don Quijote prosiguió diciendo:
+ PREDICTED: Pero a buen seguro , el labrador ; pero no le daba el cual visto que don Quijote se le parecía , cuando el famoso don Quijote de su amo , el cura , puesto que que que que no estaba en la orden le hubiera puesto que era el mesmo puesto que no le prometió , no le osaba decir , no se casaba con tan loco que le osaba apartar a decir ; y pensativo se dirá fuerzas de caballería veras ni tanto ; y pensativo se dirá en su amo ; y no tuvo ; y pensativo se osaba decir , ni tanto la mesma ; y pensativo se dirá dos Dashwood , ni puesto que ellos le pasó sus gracias tanto puesto que ellos aviso de su amo ; y de su amo ; y de su amo ; y de su amo ; y de su amo ; y de su amo ; y de su amo ; y de su amo ; y de su amo ; y de lo que con ella , sobre ella misma la mesma ; y de su amo Panza le osaba dos a su amo ; y de su amo tanto a su amo ; y de su amo tanto a entender que le osaba apartar a los efectos de su amo ; y de su amo ; y de su amo ; y de su amo ; y de su amo ; y de su amo ; y de su amo ; y de su amo ; y de su amo ; y de su amo ; y de su amo ; y de su amo Panza , que ellos le encerraron dentro se le había dicho ; y de su amo ; y de su amo ; y de su amo ; y de lo que le había dicho ; y de lo que le había dicho ; y de su amo ; y de su amo ; y de su amo ; y de su amo ; y de lo que le había dicho ; y de su amo ; y de lo que ellos aviso de lo que ellos aviso de lo que ellos aviso de su amo ; y de lo que le había dicho ; y de lo que ellos aviso de su amo ; y de lo que le había dicho ; y de su amo ; y de su amo ; y de lo que ellos aviso de lo que le había dicho ; y de su amo ; y de su amo ; y de lo que le había dicho ; y de lo que con la verdad que le había dicho ; y de su amo ; y de lo que le había dicho ; y de su amo viene a los pastores se haya puesto que le había dicho ; y de su amo ; y de don Quijote , no había dicho ; y de lo que le había dicho ; y se había dicho ; y de lo que le había dicho ; y de lo que le había dicho ; y de lo que con ella le había dicho ; y de lo que le había dicho ; y de lo que con ella le había dicho ; y de lo que el mesmo a los que ellos aviso de lo que ellos aviso de lo que ellos aviso de lo que el que el que el mesmo modo que al amor , no había dicho ; y de su amo ; y de su amo le encerraron dentro , que el mesmo a los pastores se haya puesto que le había dicho ; y de su amo viene y de su amo quedaba ; y de su amo le había dicho que el que ellos aviso de su amo le había dicho ; y de su amo le había dicho ; y de su amo ; y de don Quijote , que el a los que le había dicho ; y de su amo le había dicho ; y de su amo le había dicho ; y de su amo , que le había dicho ; y de su amo , que era lo que el mesmo a don Quijote , que era lo que el mesmo modo que el que el que le había dicho ; y de su amo le había dicho ; y de su amo le había dicho ; y de su amo le había dicho ; y de su amo le había dicho ; y de su amo le había dicho ; y de su amo le había dicho que era lo que el mesmo
+--------------------------------------------------------------------------------
+    SOURCE: We had hardly reached the hall when we heard the baying of a hound, and then a scream of agony, with a horrible worrying sound which it was dreadful to listen to.
+    TARGET: Apenas habíamos llegado al vestíbulo cuando oímos el ladrido de un perro y a continuación un grito de agonía, junto con un gruñido horrible que causaba espanto escuchar.
+ PREDICTED: Un joven ayudante de regimiento que facilitaba a la puerta con sus pocos las escaleras , se colocaron de sus interpretaciones .
